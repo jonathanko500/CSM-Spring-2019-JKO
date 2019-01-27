@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Observation
+{//start
+	public static void main (String[]args)
+	{//start
+		boolean cont = true;
+		int[] list2;
+		int num,length,counter=0;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("How big of list do you want?: ");
+		length=Integer.parseInt(scan.nextLine());
+		list2= new int[length];
+		while(cont==true)
+		{//keep asking for number
+			System.out.print("Enter number: ");
+			num=Integer.parseInt(scan.nextLine());
+			for(int i=0;i<list2.length;i++)
+			{//add to num to array
+				list2[counter]=num;
+			}//end
+			counter++;
+			if(counter==list2.length)
+			{//stop asking for num
+				cont=false;
+			}//end
+		}//end
+		System.out.println(countForce(list2));
+	}//end
+	public static int countForce (int[] x)
+	{//start
+		int y=x.length;
+		int num=0;
+		for (int i=0;i<y;i++)
+		{//start
+			for(int j=i+1;j<y;j++)
+			{//start
+				for(int k=j+1;k<y;k++)
+				{//start
+					if(x[i]+x[j]+x[k]==0)
+					{
+						num++;
+					}
+				}//end
+			}//end
+		}//end
+		return num;
+	}//end
+}//end

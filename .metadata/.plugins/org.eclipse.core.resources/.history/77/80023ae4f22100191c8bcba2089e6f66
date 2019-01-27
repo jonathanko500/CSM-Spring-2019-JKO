@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Observation
+{//start
+	public static void main (String[]args)
+	{//start
+		int[] list = {30,-40,-20,-10,40,0,10,5};
+		boolean cont = true;
+		int[] list2;
+		int num,length,counter=0;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("How big of list do you want?: ");
+		length=Integer.parseInt(scan.nextLine());
+		list2= new int[length];
+		while(cont==true)
+		{
+			System.out.print("Enter number: ");
+			num=Integer.parseInt(scan.nextLine());
+			for(int i=0;i<list2.length;i++)
+			{
+				list2[counter]=num;
+			}
+			counter++;
+			if(counter==list2.length)
+			{
+				cont=false;
+			}
+		}
+		System.out.println(countForce(list2));
+		System.out.println(countForce(list));
+		
+	}//end
+	public static int countForce (int[] x)
+	{//start
+		int y=x.length;
+		int num=0;
+		for (int i=0;i<y;i++)
+		{//start
+			for(int j=i+1;j<y;j++)
+			{//start
+				for(int k=j+1;k<y;k++)
+				{//start
+					if(x[i]+x[j]+x[k]==0)
+					{
+						num++;
+					}
+				}//end
+			}//end
+		}//end
+		return num;
+	}//end
+}//end
