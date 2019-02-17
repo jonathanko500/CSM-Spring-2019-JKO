@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class Testing
+{
+
+	public static void main(String[] args)
+	{
+		
+		Random rand = new Random();
+		Scanner scan = new Scanner(System.in);
+		int PathOrWall=rand.nextInt(2);
+		String ans = null;
+		boolean pass=true;
+		while(pass==true)
+		{
+			System.out.println(PathOrWall);
+			System.out.print("Cont: ");
+			if(ans.equalsIgnoreCase("n"))
+			{
+				pass=false;
+			}
+			else
+			{
+				
+				PathOrWall=rand.nextInt(2);
+			}
+		}
+		
+
+	}
+
+}
