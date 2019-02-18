@@ -10,6 +10,16 @@ import dataStructures.*;
 
 public class RatInAMaze
 {//Start RatInaMaze
+	/** entry point for rat in a maze program */
+	public static void main(String [] args)
+	{//start main
+		welcome();
+		inputMaze();
+		
+		if (findPath()) outputPath();
+		else System.out.println("No path");
+		
+	}//end main
 	// top-level nested class
 	private static class Position
 	{//start Position
@@ -36,7 +46,7 @@ public class RatInAMaze
 	private static int size;   // number of rows and columns in the maze
 	private static float density;//float
 	private static ArrayStack path;  // path to current position
-	static Random rand = new Random();
+	Random rand = new Random();
 	private static int PathOrWall=0;
 	private static double chance;
 	// methods
@@ -71,15 +81,17 @@ public class RatInAMaze
 				maze[i][j] = (byte) PathOrWall;
 				System.out.print(maze[i][j]);
 				PathOrWall = density(PathOrWall,chance);//0= wall or background 1=path or foreground
+				
 			}
 		}//end loop   
+		
 	}//end input maze
 	public static int density(int num, double chance)// increase chance for obj of array to be 1
 	{//start
 		Random rand = new Random();
 		double f=rand.nextDouble();
 		if(f<chance)//default density
-		{
+		{//bigger decimal = more 0
 			num=0;
 		}
 		else
@@ -158,15 +170,4 @@ public class RatInAMaze
 		while (!path.empty())
 			System.out.println(path.pop());
 	}
-   
-	/** entry point for rat in a maze program */
-	public static void main(String [] args)
-	{//start main
-		welcome();
-		inputMaze();
-		/*
-		if (findPath()) outputPath();
-		else System.out.println("No path");
-		*/
-	}//end main
 }//end rat in a maze
