@@ -2,8 +2,6 @@
 
 package applications;
 
-import java.util.*;
-
 import dataStructures.*;
 //import utilities.*;
 
@@ -40,11 +38,7 @@ public class WireRouter
    //*********************************************************************
    // data members
 	private static int [][] grid;
-	private static int size,
-					   xS,
-					   yS,
-					   xF,
-					   yF;         // number of rows and columns in the grid
+	private static int size;         // number of rows and columns in the grid
 	private static int pathLength;   // length of shortest wire path
 	private static ArrayQueue q;     // queue of unexpanded reached positions
 	private static Position start,   // one end point of wire
@@ -62,22 +56,16 @@ public class WireRouter
 	private static void inputData()
 	{//start input data
 		// define the input stream to be the standard input stream
-		Scanner keyboard = new Scanner(System.in);
+		MyInputStream keyboard = new MyInputStream();
 		
-		System.out.print("Enter grid size: ");
-		size = Integer.parseInt(keyboard.nextLine());
+		System.out.println("Enter grid size");
+		size = keyboard.readInteger();
 
-		System.out.print("Enter the start position (x): ");
-		xS = Integer.parseInt(keyboard.nextLine());
-		System.out.print("Enter the start position (y): ");
-		yS = Integer.parseInt(keyboard.nextLine());
-		start = new Position(xS,yS);
+		System.out.println("Enter the start position");
+		start = new Position(keyboard.readInteger(),keyboard.readInteger());
 		
-		System.out.print("Enter the finish position (x): ");
-		xF = Integer.parseInt(keyboard.nextLine());
-		System.out.print("Enter the finish position (y): ");
-		yF = Integer.parseInt(keyboard.nextLine());
-		finish = new Position(xF,yF);
+		System.out.println("Enter the finish position");
+		finish = new Position(keyboard.readInteger(),keyboard.readInteger());
 		
 		// create and input the wiring grid array
 		grid = new int [size + 2][size + 2];
@@ -86,7 +74,7 @@ public class WireRouter
 		{// start loop
 			for (int j = 1; j <= size; j++)
 			{
-				grid[i][j] = 0;
+				grid[i][j] = keyboard.readInteger();
 			}	
 		}//end loop
 	}//end input data

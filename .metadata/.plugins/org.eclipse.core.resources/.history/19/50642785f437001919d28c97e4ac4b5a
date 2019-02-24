@@ -3,7 +3,7 @@
 package applications;
 
 import java.util.*;
-import java.util.Stack;
+
 
 import dataStructures.*;
 //import utilities.*;
@@ -44,7 +44,7 @@ public class RatInAMaze
 	private static byte [][] maze;
 	private static int size;   // number of rows and columns in the maze
 	private static float density;//float
-	private static Stack path;  // path to current position
+	private static ArrayStack path;  // path to current position
 	Random rand = new Random();
 	private static int PathOrWall=0;
 	private static double chance;
@@ -104,14 +104,14 @@ public class RatInAMaze
      * @return true if successful, false if impossible */
 	private static boolean findPath()
 	{//start findPath
-		path = new Stack();
+		path = new ArrayStack();
    
 		// initialize offsets
 		Position [] offset = new Position [4];
 		offset[0] = new Position(0, 1);   // right
 		offset[1] = new Position(1, 0);   // down
 		offset[2] = new Position(0, -1);  // left
-		offset[3] = new Position(-1, 0);  // up 
+		offset[3] = new Position(-1, 0);  // up
       
 		// initialize wall of obstacles around maze
 		for (int i = 0; i <= size + 1; i++)
@@ -119,9 +119,8 @@ public class RatInAMaze
 			maze[0][i] = maze[size + 1][i] = 1; // bottom and top
 			maze[i][0] = maze[i][size + 1] = 1; // left and right
 		}
-		
+   
 		Position here = new Position(1, 1);
-		
 		maze[1][1] = 1; // prevent return to entrance
 		int option = 0; // next move
 		int lastOption = 3;

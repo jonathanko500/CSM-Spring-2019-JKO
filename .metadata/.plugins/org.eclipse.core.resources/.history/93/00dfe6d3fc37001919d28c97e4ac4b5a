@@ -64,18 +64,16 @@ public class WireRouter
 		// define the input stream to be the standard input stream
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.print("Enter grid size: ");
+		System.out.println("Enter grid size");
 		size = Integer.parseInt(keyboard.nextLine());
 
-		System.out.print("Enter the start position (x): ");
+		System.out.println("Enter the start position");
 		xS = Integer.parseInt(keyboard.nextLine());
-		System.out.print("Enter the start position (y): ");
 		yS = Integer.parseInt(keyboard.nextLine());
 		start = new Position(xS,yS);
 		
-		System.out.print("Enter the finish position (x): ");
+		System.out.println("Enter the finish position");
 		xF = Integer.parseInt(keyboard.nextLine());
-		System.out.print("Enter the finish position (y): ");
 		yF = Integer.parseInt(keyboard.nextLine());
 		finish = new Position(xF,yF);
 		

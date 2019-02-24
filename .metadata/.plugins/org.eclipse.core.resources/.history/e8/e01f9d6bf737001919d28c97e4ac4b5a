@@ -119,9 +119,8 @@ public class RatInAMaze
 			maze[0][i] = maze[size + 1][i] = 1; // bottom and top
 			maze[i][0] = maze[i][size + 1] = 1; // left and right
 		}
-		
+   
 		Position here = new Position(1, 1);
-		
 		maze[1][1] = 1; // prevent return to entrance
 		int option = 0; // next move
 		int lastOption = 3;
@@ -168,6 +167,7 @@ public class RatInAMaze
 	{
 		System.out.println("The path is");
 		while (!path.empty())
+			System.out.println();
 			System.out.println(path.pop());
 	}
 }//end rat in a maze
