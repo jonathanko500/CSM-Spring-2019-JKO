@@ -9,7 +9,7 @@ public class Testing
 		Random rand = new Random();
 		Scanner scan = new Scanner(System.in);
 		int[][] data = {{1, 2}, {3, 4}};
-		int[][] grid = new int[2][2];
+		int[][] grid = null;
 		for(int i=0;i<data.length;i++)
 		{
 			for(int j=0;j<data[i].length;j++)
@@ -17,15 +17,13 @@ public class Testing
 				grid[i][j]=data[i][j];
 			}
 		}
-		for(int i=0;i<data.length;i++)
+		for(int i=0;i<grid.length;i++)
 		{
-			for(int j=0;j<data[i].length;j++)
+			for(int j=0;j<grid[i].length;j++)
 			{
 				System.out.println(grid[i][j]);
 			}
 		}
-		
-		
 		/*int PathOrWall1=rand.nextInt(2);
 		int PathOrWall2 = 0;
 		PathOrWall2=randNum(PathOrWall2);

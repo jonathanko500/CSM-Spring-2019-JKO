@@ -106,7 +106,6 @@ public class RatInAMaze
 	private static boolean findPath()
 	{//start findPath
 		path = new Stack();
-		int[][] dup = cloneGrid();
    
 		// initialize offsets
 		Position [] offset = new Position [4];
@@ -138,7 +137,7 @@ public class RatInAMaze
 			{
 				r = here.row + offset[option].row;
 				c = here.col + offset[option].col;
-				if (dup[r][c] == 0) break;
+				if (maze[r][c] == 0) break;
 				option++; // next option
 			}
     
@@ -148,7 +147,7 @@ public class RatInAMaze
 				path.push(here);
 				here = new Position(r, c);
 				// set to 1 to prevent revisit
-				dup[r][c] = 1;
+				maze[r][c] = 1;
 				option = 0;
 			}
 			else

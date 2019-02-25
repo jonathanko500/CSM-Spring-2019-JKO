@@ -129,7 +129,7 @@ public class RatInAMaze
 		int lastOption = 3;
 		
 		// search for a path
-		while (here.row != size || here.col != size)
+		while (here.row != size+1 || here.col != size+1)
 		{// not at exit
 			// find a neighbor to move to
 			// won't compile without explicit initialization

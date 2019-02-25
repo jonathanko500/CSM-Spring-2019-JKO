@@ -15,10 +15,9 @@ public class RatInAMaze
 	{//start main
 		welcome();
 		inputMaze();
-		
+		System.out.println();
 		if (findPath()) outputPath();
 		else System.out.println("No path");
-		
 	}//end main
 	// top-level nested class
 	private static class Position
@@ -106,7 +105,6 @@ public class RatInAMaze
 	private static boolean findPath()
 	{//start findPath
 		path = new Stack();
-		int[][] dup = cloneGrid();
    
 		// initialize offsets
 		Position [] offset = new Position [4];
@@ -138,7 +136,7 @@ public class RatInAMaze
 			{
 				r = here.row + offset[option].row;
 				c = here.col + offset[option].col;
-				if (dup[r][c] == 0) break;
+				if (maze[r][c] == 0) break;
 				option++; // next option
 			}
     
@@ -148,7 +146,7 @@ public class RatInAMaze
 				path.push(here);
 				here = new Position(r, c);
 				// set to 1 to prevent revisit
-				dup[r][c] = 1;
+				maze[r][c] = 1;
 				option = 0;
 			}
 			else
@@ -171,29 +169,5 @@ public class RatInAMaze
 		System.out.println("The path is");
 		while (!path.empty())
 			System.out.println(path.pop());
-	}
-	public static int[][] cloneGrid ()
-	{
-		int[][] dup=new int[size+1][size+1];
-		for(int i=0;i<size+1;i++)
-		{
-			for(int j=0;j<size+1;j++)
-			{
-				if(i==0||j==0)
-				{//boarders
-					dup[0][j]=0;
-					dup[i][j]=0;
-				}
-				else if(dup[i][j]==dup[1][1])
-				{//start of maze
-					dup[1][1]=1;
-				}
-				else 
-				{//remaining amount
-					dup[i][j]=(int)maze[i][j];
-				}
-			}
-		}
-		return dup;
 	}
 }//end rat in a maze

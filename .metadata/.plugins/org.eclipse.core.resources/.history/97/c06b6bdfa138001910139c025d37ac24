@@ -138,7 +138,7 @@ public class RatInAMaze
 			{
 				r = here.row + offset[option].row;
 				c = here.col + offset[option].col;
-				if (dup[r][c] == 0) break;
+				if (maze[r][c] == 0) break;
 				option++; // next option
 			}
     
