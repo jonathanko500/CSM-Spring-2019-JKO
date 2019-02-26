@@ -1,22 +1,5 @@
 INDEX VERSION 1.129+C:\Users\Ko Family\Desktop\CSM-Spring-2019-JKO\.metadata\.plugins\org.eclipse.jdt.core
-806062888.index
-823384711.index
-3363692690.index
-2569137926.index
-916900781.index
-100574398.index
-1177904427.index
-3273689814.index
-1093488887.index
-890887124.index
-2088728460.index
-4121661813.index
-2872033403.index
 364384390.index
 745130525.index
-710797068.index
+2987220926.index
 1556283325.index
-3609888128.index
-3487609244.index
-1204375214.index
-2043626465.index
