@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class PQprac {
+
+	public static void main(String[] args) 
+	{
+		Queue <Integer> prac = new PriorityQueue<>();
+		Queue <Integer> prac2 = new PriorityQueue<>();
+		prac.add(5);
+		prac.add(6);
+		prac.add(7);
+		prac.add(8);
+		prac2.addAll(prac);
+		Object[] arr = prac2.toArray();
+		for(int i=0;i<prac2.size();i++)
+		{
+			System.out.println(arr[i]);
+		}
+		System.out.println("***************");
+		System.out.println(prac.poll());
+		System.out.println(prac.peek());
+		prac.remove();
+		System.out.println(prac.peek());
+		prac.remove();
+		System.out.println(prac.peek());
+		
+	}
+
+}

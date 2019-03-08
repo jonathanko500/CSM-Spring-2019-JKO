@@ -8,10 +8,24 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: Eclipse Foundation Board Election Results</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/AGnSilbZADg/20190305-boardelection.php</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/AGnSilbZADg/20190305-boardelection.php</link>
+	<description>See the results of the Eclipse Foundation Sustaining Member and Committer Member elections for representatives to our Board of Directors.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/AGnSilbZADg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 06 Mar 2019 15:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: The 2019 Jakarta EE Developer Survey is underway!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/JQv1iSBVyC8/2019-jakarta-ee-developer-survey-underway</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/JQv1iSBVyC8/2019-jakarta-ee-developer-survey-underway</link>
+	<description>The Jakarta EE Working Group is launching the Jakarta EE Developer Survey for 2019!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/JQv1iSBVyC8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 05 Mar 2019 15:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Eclipse Announcements: Jakarta EE - What's New in 2019?</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/E90K3ynkcSw/</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/E90K3ynkcSw/</link>
-	<description>Check out what's new in 2019 for Jakarta EE!.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/E90K3ynkcSw&quot; width=&quot;1&quot; /&gt;</description>
+	<description>Check out what's new in 2019 for Jakarta EE!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/E90K3ynkcSw&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 04 Mar 2019 13:00:00 +0000</pubDate>
 </item>
 <item>
@@ -390,81 +404,6 @@ October 22 - 24: Conference
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://blogs.eclipse.org/www.surveymonkey.com/r/IoThabang&quot;&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/kxgBf1fz6GC262mTk6k2bGkEIq-jf2mK7JtQ38laXJEdFEGmI6TUs63H0xHPIXI26aJovbQsHbXDFTWOtUbQgUL9OagVSI8kDyn0WxYfAelYxOLYCGkJOM20xfUZNSyMKw4LvMj8&quot; style=&quot;height: 312px; width: 624px;&quot; /&gt;&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags: &lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/eclipse-iot&quot;&gt;eclipse-iot&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/iot&quot;&gt;IoT&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/iot-developer-survey-2019&quot;&gt;iot-developer-survey-2019&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/community&quot;&gt;Community&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Mon, 11 Feb 2019 10:48:22 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Open Source: Can you afford not to get involved?</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/a_D3H4Cw-dM/open-source-can-you-afford-not-get-involved</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/a_D3H4Cw-dM/open-source-can-you-afford-not-get-involved</link>
-	<description>To say that the open source community is on a roll would be an understatement.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/a_D3H4Cw-dM&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 07 Feb 2019 13:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>Thabang Mashologu: Open Source: Can you afford not to get involved?</title>
-	<guid isPermaLink="false">https://blogs.eclipse.org/6668 at https://blogs.eclipse.org</guid>
-	<link>https://blogs.eclipse.org/post/thabang-mashologu/open-source-can-you-afford-not-get-involved</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Recently, the streaming data analytics startup Confluent announced that it had closed a $125 million Series D funding round. With the company’s value pegged at $2.5 billion, Confluent became the latest open source “unicorn.”&lt;/p&gt;
-
-&lt;p&gt;To say that the open source community is on a roll would be an understatement.&lt;/p&gt;
-
-&lt;p&gt;In 2018, &lt;a href=&quot;https://medium.com/memory-leak/2018-the-biggest-year-for-open-source-software-ever-part-deux-8d1b33fe47e4&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;open source M&amp;amp;A activity&lt;/a&gt; totaled an unprecedented $47 billion. IBM’s purchase of Red Hat, valued at a whopping $35 billion, went down as the largest software acquisition deal in history. While the IBM-Red Hat deal garnered most of the attention, some of the other acquisitions in the open source space were no less significant in terms of their deal sizes, and more importantly, the players involved.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Disclosure: Both IBM and Red Hat are strategic members of the &lt;/em&gt;&lt;em&gt;&lt;a href=&quot;https://www.eclipse.org/membership/exploreMembership.php&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation&lt;/a&gt; &lt;/em&gt;&lt;em&gt;where I work.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Beyond catalyzing new venture creation and growth, open source is at the heart of the digital economy. IBM, Adobe, Salesforce, and VMware are not companies that you instantly recognize as being in the open source business. The fact that some of the heavyweights in the closed source software business are now among the most active participants in open source should be an eye-opener for companies contemplating a foray into the world of collaborative software development.&lt;/p&gt;
-
-&lt;p&gt;While open source may seem like an overnight success, the role that open source communities and projects play towards the success of household names such as Google, Netflix, Facebook, Lyft, GE, Walmart, and others is less known. According to the &lt;a href=&quot;https://github.com/todogroup/survey&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;TODO Group&lt;/a&gt;, 55 percent of companies are shipping commercial products based on open source. The same survey found that 72 percent of companies use open source for non-commercial or internal reasons.&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Why is open source radically changing the software industry?&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;As it turns out, some old-fashioned rationale is at play: organizations are realizing that the benefits of open source vastly outweigh the costs and risks. For a software development model that has been around for twenty years, the benefits that open source delivers and the foundational aspects of its ecosystem are still unclear to many business leaders.&lt;/p&gt;
-
-&lt;p&gt;While the term “digital transformation” may have &lt;a href=&quot;https://en.wikipedia.org/wiki/Jumping_the_shark&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;jumped the shark&lt;/a&gt;, it’s undeniable that in the era of the digital economy, all companies are becoming technology businesses. Companies, irrespective of size, are putting customers at the center of everything they do and leveraging technology to deliver services in new and innovative ways. Case studies where cutting-edge technology helped startups upend traditional businesses are aplenty.&lt;/p&gt;
-
-&lt;p&gt;What is perhaps less understood by the casual observer is the pivotal role that open source technologies and communities play in fuelling commercial digitization in industry sectors as varied as financial services, automotive, mining, healthcare, and entertainment (think CGI-based blockbusters in movie theatres.)&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Open source and the rise of the “entropeneur”&lt;sup&gt;TM&lt;/sup&gt;&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;A new class of entrepreneurs, or better yet, “entr&lt;strong&gt;open&lt;/strong&gt;eurs” is leveraging open source to drive innovation-based strategies that radically change the way business is done.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://media.licdn.com/dms/image/C4E12AQGJP7-qJG7H8g/article-inline_image-shrink_1500_2232/0?e=1554940800&amp;amp;v=beta&amp;amp;t=gZO4xvV-xnVwRBtni5abJ7T3toKaH8yHWo2xDNAYqT4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Open source allows community members to control their development costs while maintaining the flexibility they desire in their software. While reduced cost, flexibility, reliability, control, and sustainability are the apparent benefits of open source software, the key drivers behind its adoption can be linked to revenue growth and business transformation initiatives underway at companies.&lt;/p&gt;
-
-&lt;p&gt;As companies implement new technologies such as cloud, IoT, and AI, the speedy development and rollout out of interoperable business applications are becoming critical to achieving rapid success at scale.&lt;/p&gt;
-
-&lt;p&gt;Companies born in the cloud, and the ones migrating to it, are looking for newer development methodologies and frameworks that break vendor and platform lock-in. Participating in open source drastically lowers dependencies on vendor release cycles and licensing rules while providing organizations the freedom to effortlessly port applications and workloads from one cloud platform provider to another.&lt;/p&gt;
-
-&lt;p&gt;Open source and multi-cloud portability have evolved as two key enablers of digitalization that allow companies to collaborate and innovate their way to commercial success.&lt;/p&gt;
-
-&lt;p&gt;So, what does it take for an entropeneur to be successful?&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Community focus&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;The community approach towards software development removes single-vendor dependencies while enabling and encouraging members to work collaboratively to build on the learnings of others. More eyes on the code ensure that issues are identified and fixed promptly allowing the maintainers to deliver software code that is bug-free, interoperable, and secure, giving credence to Linus’s Law: &lt;em&gt;Given enough eyeballs, all bugs are shallow.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;For businesses, there is a good reason to encourage employee participation in open source projects. A recent Harvard Business School &lt;a href=&quot;https://hbswk.hbs.edu/item/the-hidden-benefit-of-giving-back-to-open-source-software&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt; points to studies that indicate that paying employees to contribute to open source boosted their productivity by as much as a hundred percent.&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Paying it forward&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;It is essential to understand the fundamental principles under which an open source ecosystem exists. The primary tenet of open source is: Give and take.&lt;/p&gt;
-
-&lt;p&gt;The fact is, if open source plays a role in your business, giving back — either through upstream contributions or membership in an open source software foundation — is an investment in the quality and sustainability of the projects you rely on.&lt;/p&gt;
-
-&lt;p&gt;However, a 2018 &lt;a href=&quot;https://www.digitalocean.com/currents/october-2018/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;survey&lt;/a&gt; by Digital Ocean shows that companies may not be putting their money where their mouth is.&lt;/p&gt;
-
-&lt;blockquote&gt;“ &lt;em&gt;Only 18 percent of respondents said their company is a member of an open source-related organization, and 75 percent said their company invests $1k or less every year in donations to open source&lt;/em&gt;.”&lt;/blockquote&gt;
-
-&lt;p&gt;It is a pay-it-forward model that relies on companies giving back to the community. A community implies collaboration that goes beyond the confines of a single company. Open source requires competitors to work collaboratively for the common goal. The larger the community, the better the chances of sustainability of its projects, a critical requirement for any production software.&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Participation is key&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;In an ecosystem that includes developers who volunteer their time to create and maintain software, and the users that take the free software and build products on top of it, there is a delicate balance. For the modestly-staffed foundations that administer the community and oversee the open source projects and its committers, a commercially viable ecosystem is vital to its success.&lt;/p&gt;
-
-&lt;p&gt;The sustainability of open source is predicated on the participation of corporate entities that bring financial stability to its organization and the developers who contribute their time. The foundations, in turn, strive to foster a supportive environment that encourages newcomers to participate, while ensuring the existing members continue to enjoy the experience of building innovative software solutions that become the building blocks of successful companies.&lt;/p&gt;
-
-&lt;p&gt;So, can you afford not to get involved?&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags: &lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/open-source&quot;&gt;Open Source&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/business&quot;&gt;Business&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/ecosystem&quot;&gt;Ecosystem&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/sustainability&quot;&gt;Sustainability&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/open-collaboration&quot;&gt;Open collaboration&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/open-innovation&quot;&gt;Open innovation&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 06 Feb 2019 20:33:33 +0000</pubDate>
 </item>
 
 </channel>
