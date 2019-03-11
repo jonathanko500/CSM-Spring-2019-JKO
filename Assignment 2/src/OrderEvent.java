@@ -1,6 +1,8 @@
 
 public class OrderEvent extends Event
 {//start
+	private SoftwareGurusBar world = new SoftwareGurusBar ();
+	private simulationFramework simulation = new simulationFramework();
 	private int groupSize;
 	//constructor
 	public OrderEvent()
@@ -36,7 +38,7 @@ public class OrderEvent extends Event
 		//each member of group order beer (type 1,2,3)
 		for(int i=0;i<groupSize;i++)
 		{
-			//order(1+randBetween(1,3));
+			world.order(1+simulation.randBtw(1,3));
 		}
 		// schedule a leaveEvent for this group
 		// all the group leaves together (left for you)

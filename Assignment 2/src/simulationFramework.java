@@ -42,12 +42,16 @@ public class simulationFramework
 		return eventQ;
 	}
 	//methods
-	public void schduleEvent(ArriveEvent x)
+	public void schduleEvent(Event x)
 	{
 		
 	}
 	public void run()
 	{
 		
+	}
+	public int randBtw(int x, int y)
+	{
+		return x + (int) ((y - x + 1) * Math.random());
 	}
 }//end

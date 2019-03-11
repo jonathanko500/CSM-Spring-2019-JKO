@@ -1,6 +1,8 @@
 
 public class ArriveEvent extends Event
 {//start
+	private SoftwareGurusBar world = new SoftwareGurusBar ();
+	private simulationFramework simulation = new simulationFramework();
 	private int groupSize;
 	//constructor
 	public ArriveEvent()
@@ -33,11 +35,10 @@ public class ArriveEvent extends Event
 	}
 	public void processEvent()
 	{//start
-		/*
-		if(canSeat(groupSize))//place order within 2-10 min
+		if(world.canSeat(groupSize))//place order within 2-10 min
 		{
-			simulation.schduleEvent(new OrderEvent(getTime()+randBetween(2,10),groupSize));
+			simulation.schduleEvent(new OrderEvent(getTime()+simulation.randBtw(2,10),groupSize));
 		}
-		*/
 	}//end
+	
 }//end

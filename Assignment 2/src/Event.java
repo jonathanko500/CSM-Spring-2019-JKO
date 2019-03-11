@@ -1,6 +1,7 @@
 
 public class Event
 {//start
+	
 	private int time;
 	//constructors
 	public Event()
