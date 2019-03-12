@@ -1,8 +1,8 @@
 
-public abstract class Event implements Comparable
+public class Event
 {//start
 	
-	public int time;
+	private int time;
 	//constructors
 	public Event()
 	{
@@ -29,14 +29,5 @@ public abstract class Event implements Comparable
 		String x="";
 		x="The time is "+time;
 		return x;
-	}
-	//methods
-	abstract void processEvent();
-	public int compareTo (Object o) 
-	{
-		Event right = (Event) o;
-		if (time < right.time) return -1;
-		if (time == right.time) return 0;
-		return 1;
 	}
 }//end

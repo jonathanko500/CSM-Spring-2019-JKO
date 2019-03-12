@@ -2,7 +2,7 @@ import java.util.*;
 
 public class simulationFramework 
 {//start
-	private int currentTime=0;
+	private int currentTime;
 	private Queue<Event> eventQ = new PriorityQueue<>();
 	//constructor
 	public simulationFramework()
@@ -44,20 +44,14 @@ public class simulationFramework
 	//methods
 	public void schduleEvent(Event x)
 	{
-		eventQ.add(x);
+		
 	}
 	public void run()
 	{
-		while(!eventQ.isEmpty())
-		{//start loop
-			ArriveEvent next = (ArriveEvent) eventQ.remove();
-			currentTime = next.getTime();
-			next.processEvent();
-		}//end loop
+		
 	}
 	public int randBtw(int x, int y)
 	{
 		return x + (int) ((y - x + 1) * Math.random());
 	}
-	private FindMin eventQueue = new Heap(new DefaultComparator());
 }//end

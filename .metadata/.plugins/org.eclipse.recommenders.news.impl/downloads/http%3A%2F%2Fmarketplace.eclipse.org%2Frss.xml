@@ -6,6 +6,96 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>m2e-chromatic</title>
+    <link>http://marketplace.eclipse.org/content/m2e-chromatic</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-11 17:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Sidespin%22&quot;&gt;Sidespin&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-02-21 12:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/fbricon/listings&quot; title=&quot;Fred Bricon&quot;&gt;Fred Bricon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Maven launch participant enabling colored output when the &lt;a href=&quot;https://marketplace.eclipse.org/content/ansi-escape-console&quot; rel=&quot;nofollow&quot;&gt;ANSI Escape in Console plugin&lt;/a&gt; is installed.&lt;/p&gt;
+&lt;p&gt;It can be disabled in the &lt;a href=&quot;https://user-images.githubusercontent.com/148698/52601092-aea48600-2e2b-11e9-9514-600799ffe13b.png&quot; rel=&quot;nofollow&quot;&gt;&quot;Launch Extensions&quot; tab&lt;/a&gt; of the Launch configuration page.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 21 Feb 2019 17:55:48 +0000</pubDate>
+ <dc:creator>fbricon</dc:creator>
+ <guid isPermaLink="false">4511509 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/m2e-chromatic#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Wild Web Developer - web development in Eclipse IDE</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wild-web-developer-marketplace-logo.png&quot; width=&quot;110&quot; height=&quot;78&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-11 17:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Wild%20Web%20Developers%20Contributors%22&quot;&gt;Eclipse Wild Web Developers Contributors&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-04-13 10:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;Eclipse Wild Web Developer&lt;/em&gt; enables simple and rich &lt;strong&gt;edition&lt;/strong&gt; of typical main web and configuration files (HTML, CSS, JS, TS, JSon, YAML, XML -with schema support-) and &lt;strong&gt;debugging&lt;/strong&gt; of Node.js apps in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;To see it in action, open the desired file with the &lt;em&gt;Generic Editor&lt;/em&gt; that&#039;s included by default in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;Supported file formats for edition:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS, SCSS, SASS, LESS&lt;/li&gt;
+&lt;li&gt;JavaScript (EcmaScript 9)&lt;/li&gt;
+&lt;li&gt;TypeScript 3.3&lt;/li&gt;
+&lt;li&gt;JSon (including schema support)&lt;/li&gt;
+&lt;li&gt;Yaml (ncluding schema support, Kubernetes schema built-in&lt;/li&gt;
+&lt;li&gt;XML (including schema support), XSL, XSD, DTD&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported frameworks (file specialization) for edition:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Kubernetes&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported feature for edition are&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Validation (diagnostics, markers)&lt;/li&gt;
+&lt;li&gt;Code Completion&lt;/li&gt;
+&lt;li&gt;Hover&lt;/li&gt;
+&lt;li&gt;Outline&lt;/li&gt;
+&lt;li&gt;Rename refactoring&lt;/li&gt;
+&lt;li&gt;Jump to declaration&lt;/li&gt;
+&lt;li&gt;Find references&lt;/li&gt;
+&lt;li&gt;Color preview&lt;/li&gt;
+&lt;li&gt;... and other features part of the Language Server Protocol&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported debugging target&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Node.js&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 13 Apr 2017 14:52:25 +0000</pubDate>
+ <dc:creator>mistria</dc:creator>
+ <guid isPermaLink="false">3394048 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide#comments</comments>
+  </item>
+  <item>
+    <title>DBeaver EE</title>
+    <link>http://marketplace.eclipse.org/content/dbeaver-ee</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Enterprise_icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-11 08:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DBeaver%20Corp%22&quot;&gt;DBeaver Corp&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-11-18 13:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;DBeaver Enterprise Edition.&lt;/p&gt;
+&lt;p&gt;Includes all features of DBeaver Community plus:&lt;br /&gt;
+- NoSQL/BigData databases (MongoDB, Cassandra, Redis, InfluxDB, Hive, etc)&lt;br /&gt;
+- Advanced extensions (office format, SVG export, SSHJ, JSON editor)&lt;br /&gt;
+- Visual Query Builder&lt;br /&gt;
+- Visual SQL execution plan analysis&lt;br /&gt;
+- Persistent SQL history management&lt;br /&gt;
+- Advanced mock data generator&lt;br /&gt;
+- Advanced dashboards&lt;br /&gt;
+- 3rd-party JDBC drivers&lt;br /&gt;
+- Secured passwords storage&lt;br /&gt;
+- Online customer support&lt;/p&gt;
+&lt;p&gt;Standalone version available on &lt;a href=&quot;https://dbeaver.com/download&quot; rel=&quot;nofollow&quot;&gt;https://dbeaver.com/download&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 18 Nov 2017 18:47:50 +0000</pubDate>
+ <dc:creator>sriderdp1</dc:creator>
+ <guid isPermaLink="false">3775863 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/dbeaver-ee#comments</comments>
+  </item>
+  <item>
+    <title>SmartIM</title>
+    <link>http://marketplace.eclipse.org/content/smartim</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/qq%282%29.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-11 02:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22ieclipse.cn%22&quot;&gt;ieclipse.cn&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-06-23 04:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnamefb2/listings&quot; title=&quot;Jamling Li&quot;&gt;Jamling Li&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;An anti-boss plugin for you to chat with your QQ/Wechat freinds privately. This plugin requires install &lt;strong&gt;Eclipse Explorer&lt;/strong&gt; first&lt;/p&gt;
+&lt;p&gt;一个防Boss的QQ/微信聊天插件，让老板以为你是在写代码，其实，你是在聊天，不过，做为程序猿，怎么可能有时间聊天，哈哈。&lt;/p&gt;
+&lt;p&gt;Intellij IDEA上的同名插件也已开发完毕，插件市场搜索&quot;SmartIM&quot;即可下载安装。&lt;/p&gt;
+&lt;p&gt;v3.2.0：修复部分微信账号登录出现异常的问题，优化代码评审窗口，优化添加聊天记录日志&lt;/p&gt;
+&lt;p&gt;v3.1.4：修复Linux系统下的某些问题&lt;/p&gt;
+&lt;p&gt;v3.1.2：添加了对UI主题的适配&lt;/p&gt;
+&lt;p&gt;v3.1.0：性能得到了极大的优化&lt;/p&gt;
+&lt;p&gt;v3.0.4：修复微信扫码无法登录的问题&lt;/p&gt;
+&lt;p&gt;v3.0.3：修复3.x在eclipse 4.6以上版本运行异常的问题，其它若干bug修复与优化&lt;/p&gt;
+&lt;p&gt;v3.0.0：重大更新&lt;/p&gt;
+&lt;p&gt;v2.1.2：优化聊天协议，添加通知选项，优化机器人回复&lt;/p&gt;
+&lt;p&gt;v2.1.1：优化消息提示，修复了发送者识别不正确的问题&lt;/p&gt;
+&lt;p&gt;v2.1.0：支持聊天记录与消息提示&lt;/p&gt;
+&lt;p&gt;v2.0.0：支持微信协议（目前仅支持文本消息）&lt;/p&gt;
+&lt;p&gt;v1.0.9：支持复制到聊天窗口发送文件或Code Review&lt;/p&gt;
+&lt;p&gt;v1.0.8：支持代码评审，支持工程内文件快速搜索并发送&lt;/p&gt;
+&lt;p&gt;v1.0.6：支持发送文件。&lt;/p&gt;
+&lt;p&gt;about more: &lt;a href=&quot;https://github.com/Jamling/SmartIM4Eclipse/&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Jamling/SmartIM4Eclipse/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 23 Jun 2017 08:51:26 +0000</pubDate>
+ <dc:creator>mmisingnamefb2</dc:creator>
+ <guid isPermaLink="false">3508787 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/smartim#comments</comments>
+  </item>
+  <item>
     <title>DBeaver</title>
     <link>http://marketplace.eclipse.org/content/dbeaver</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Community_icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2019-03-10 17:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DBeaver%20Corp%22&quot;&gt;DBeaver Corp&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators. It can work with any database server which has JDBC or ODBC driver. It supports pluggable extensions. Includes extensions for: MySQL, MariaDB, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Apache Hive, Drill, PrestoDB, Phoenix, Exasol, Informix, Teradata, Vertica, Netezza, Firebird, Derby, H2, WMI, Snowflake, Greenplum, AWS Redshift, AWS Athena, SAP HANA, NuoDB, MS Access, SQLite, CSV, DBF, Firebird, TimescaleDB, Yellowbrick, CockroachDB, OrientDB, MonetDB, Google BigQuery, Apache Hive/Impala/Spark, Apache Ignite, MapD, Azure SQL, CrateDB.&lt;/p&gt;
@@ -80,119 +170,6 @@ Download packages for Windows and Mac are available at the support URL.&lt;/p&gt
  <dc:creator>akurtakov</dc:creator>
  <guid isPermaLink="false">3261650 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/shell-script-dltk#comments</comments>
-  </item>
-  <item>
-    <title>Codealike</title>
-    <link>http://marketplace.eclipse.org/content/codealike</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ca-loading.gif&quot; width=&quot;103&quot; height=&quot;51&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-03-07 21:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Codealike%22&quot;&gt;Codealike&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2014-03-20 13:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jfera/listings&quot; title=&quot;Codealike Codealike&quot;&gt;Codealike Codealike&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;			 &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-TRACK YOUR CODING.
-REAL-TIME.&lt;br /&gt;
-			AUTOMATIC.
-&lt;p&gt;Codealike remembers everything you do on the code, so you don&#039;t have to.&lt;/p&gt;
-&lt;p&gt;It integrates to your IDE and browser while automatically tracks and analyzes your activity.&lt;/p&gt;
-&lt;p&gt; &lt;br /&gt;&lt;strong&gt;You and your team get the benefits.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-&lt;h2 class=&quot;black&quot;&gt;Here are some of&lt;br /&gt;
-			+15 (jaw-dropping) features.&lt;/h2&gt;
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-&lt;h4&gt;Focus &amp;amp; Interruptions&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Do you want to understand how your concentration grows and how interruptions affect it? This is the feature for you. Codealike shows you your &quot;Focus Curve&quot; but it also shows you how many interruptions you had during different periods of time. This is handy to show clearly how much effort it takes to recover from undesired interruptions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-
-
-
-&lt;h4&gt;Timeline&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;This feature shows you the ADN of your work. It rebuilds your day by showing you the precise sequence of activity that you did so you can drilldown and explore every segment of time to understand what you did.&lt;/p&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-&lt;h4&gt;Code Tree&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Shows you the amount of time you spend Editing, Reading, Debugging and Building on different code solutions and projects. But why should we stop there? You&#039;ll be able to drilldown all the way through Namespaces, Files, Classes, Methods and Members. Use this report to see code&#039;s contributors and technical debt.&lt;/p&gt;
-
-
-
-
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-&lt;h4&gt;Code report&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;It helps you understand how much time you spend using different technologies. Have you ever wondered what are the 5 files that your attention the most? Well, wonder no more...&lt;/p&gt;
-&lt;p&gt;			&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;
-
-
-
-&lt;/p&gt;&lt;p class=&quot;lead margin-40&quot;&gt;&lt;em class=&quot;white&quot;&gt;Powerful Metrics for High Performance Software Developers.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;			&lt;a class=&quot;btn-main x_x_x_x_x_x_x_track-link&quot; href=&quot;https://codealike.com/Account/Register&quot; type=&quot;button&quot; rel=&quot;nofollow&quot;&gt;SIGN UP TO BEGIN&lt;/a&gt;
-
-
-&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.codealike.com&lt;/a&gt;
-
-
-
-
-&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 20 Mar 2014 17:38:29 +0000</pubDate>
- <dc:creator>jfera</dc:creator>
- <guid isPermaLink="false">1567141 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/codealike#comments</comments>
-  </item>
-  <item>
-    <title>Groovy Development Tools</title>
-    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-03-07 18:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
-&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability (bi-directional dependencies via joint compilation). If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
-&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://github.com/spring-projects/grails-ide&quot; rel=&quot;nofollow&quot;&gt;spring-projects/grails-ide&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
- <dc:creator>aclement</dc:creator>
- <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
-  </item>
-  <item>
-    <title>Eclipse Wild Web Developer - web development in Eclipse IDE</title>
-    <link>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wild-web-developer-marketplace-logo.png&quot; width=&quot;110&quot; height=&quot;78&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-03-07 17:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Wild%20Web%20Developers%20Contributors%22&quot;&gt;Eclipse Wild Web Developers Contributors&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-04-13 10:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Eclipse Wild Web Developer enables simple and rich &lt;strong&gt;edition&lt;/strong&gt; of typical main web and configuration files (HTML, CSS, JS, TS, JSon, YAML, XML -with schema support-) and &lt;strong&gt;debugging&lt;/strong&gt; of Node.js apps in the Eclipse IDE.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 13 Apr 2017 14:52:25 +0000</pubDate>
- <dc:creator>mistria</dc:creator>
- <guid isPermaLink="false">3394048 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide#comments</comments>
-  </item>
-  <item>
-    <title>Spring Tools 4 - for Spring Boot (aka Spring Tool Suite 4)</title>
-    <link>http://marketplace.eclipse.org/content/spring-tools-4-spring-boot-aka-spring-tool-suite-4</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sts4-marketplace-icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-03-07 07:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2014-07-11 12:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mlippert/listings&quot; title=&quot;Martin Lippert&quot;&gt;Martin Lippert&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Spring Tools 4 for Spring Boot&lt;/h2&gt;
-&lt;p&gt;Spring Tools 4 is the next generation of Spring tooling for your favorite coding enrivonment. Largely rebuilt from scratch, it provides world-class support for developing Spring-Boot-based enterprise applications, whether you prefer Eclipse, Visual Studio Code, or Atom IDE.&lt;/p&gt;
-&lt;h3&gt;Getting Started&lt;/h3&gt;
-&lt;p&gt;Spring Tool Suite 4 makes it easy to get started. A direct and easy-to-use integration of the Spring Initializr and the famous Spring Guides allows you to go from nothing to a running Spring Boot app in seconds.&lt;/p&gt;
-&lt;h3&gt;Navigate your Spring code at the speed of light&lt;/h3&gt;
-&lt;p&gt;Understanding and quickly navigating source code is essential for coding. The new Spring Tools 4 understands your Spring-Boot-based source code and allows you to quickly get an overview and navigate to the important pieces of your Spring apps. Finding Spring elements and navigating to them has never been easier.&lt;/p&gt;
-&lt;h3&gt;Smart Code Editing&lt;/h3&gt;
-&lt;p&gt;Code completion is a critical part of working with source code. The all-new Spring Tools 4 provides smart code completions for the Spring elements in your app.&lt;/p&gt;
-&lt;h3&gt;Runtime Information In Your Editor&lt;/h3&gt;
-&lt;p&gt;Spring Tools 4 now bridges the gap between your source code and running Spring Boot applications. By taking advantage of the Spring Boot Actuators, we enriched the source code with detailed information from the running app (e.g., exact bean wiring information, conditional reports, configuration, details, and more).&lt;/p&gt;
-&lt;h3&gt;Not working with Spring Boot yet and looking for the old Spring Tool Suite 3?&lt;/h3&gt;
-&lt;p&gt;Not yet working with Spring Boot, but looking for tooling for your regular Spring projects? As long as the all-new Spring Tools 4 do not support non-boot Spring projects, please refer to the previous generation of Spring Tools for Eclipse, also known as Spring Tool Suite 3 or Spring IDE, you should look at the &quot;Spring Tools 3 Add-On&quot; entry in the marketplace here: &lt;a href=&quot;https://marketplace.eclipse.org/content/spring-tools-3-add-aka-spring-tool-suite-3&quot; rel=&quot;nofollow&quot;&gt;https://marketplace.eclipse.org/content/spring-tools-3-add-aka-spring-tool-suite-3&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 11 Jul 2014 16:41:17 +0000</pubDate>
- <dc:creator>mlippert</dc:creator>
- <guid isPermaLink="false">1794107 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/spring-tools-4-spring-boot-aka-spring-tool-suite-4#comments</comments>
   </item>
   </channel>
 </rss>
