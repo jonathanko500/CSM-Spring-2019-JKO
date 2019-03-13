@@ -44,7 +44,15 @@ public class simulationFramework
 	//methods
 	public void schduleEvent(Event x)
 	{
-		eventQ.add(x);
+		if(currentTime<240)
+		{
+			eventQ.add(x);
+		}
+		else
+		{
+			System.out.println("No room at the moment.");
+		}
+		
 	}
 	public void run()
 	{
@@ -59,5 +67,4 @@ public class simulationFramework
 	{
 		return x + (int) ((y - x + 1) * Math.random());
 	}
-	private FindMin eventQueue = new Heap(new DefaultComparator());
 }//end

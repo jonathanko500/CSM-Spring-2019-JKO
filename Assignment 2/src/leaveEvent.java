@@ -35,8 +35,8 @@ public class leaveEvent extends Event
 	{ 
 		leave(groupSize); 
 	}
-	public int leave(int x)
+	public void leave(int x)
 	{
-		return 0;
+		
 	}
 }//end
