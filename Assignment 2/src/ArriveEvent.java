@@ -33,12 +33,17 @@ public class ArriveEvent extends Event
 		x="The time is "+getTime()+" the gorup size is "+groupSize;
 		return x;
 	}
+	
 	public void processEvent()
 	{//start
 		if(world.canSeat(groupSize))//place order within 2-10 min
 		{
-			simulation.schduleEvent(new OrderEvent(getTime()+simulation.randBtw(2,10),groupSize));
+			simulation.schduleEvent(new OrderEvent(getTime()+randBtw(2,10),groupSize));
 		}
 	}//end
 	
+	private int randBtw(int x, int y)//random # between two values
+	{
+		return x + (int) ((y - x + 1) * Math.random());
+	}
 }//end

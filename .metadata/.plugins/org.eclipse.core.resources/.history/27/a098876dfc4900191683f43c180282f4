@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class test {
+
+	public static void main(String[] args)
+	{
+		Queue<Event> prac = new PriorityQueue<Event>();
+		Event start = new ArriveEvent(5,4);
+		prac.add(start);
+		System.out.println(prac.peek());
+	}
+
+}

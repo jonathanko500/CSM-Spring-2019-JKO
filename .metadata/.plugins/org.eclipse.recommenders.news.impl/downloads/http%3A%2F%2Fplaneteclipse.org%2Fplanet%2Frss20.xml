@@ -8,6 +8,212 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Tanja Obradovic: How to participate in advancing Jakarta EE Specification</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6681 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/tanja-obradovic/how-participate-advancing-jakarta-ee-specification</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-RJUHEiTKNyuHlMqrNX3WVVPAc8UmO2d9s0rhRGkP4wvhFx9cTSH0CSPlwSApS5mGQmT1k5DWmmLyaC394jcHZ1MQ7Lvsq6QTRYXCYT31Hc6E4DfrJPa-9ZFnNUjiFHzvZdUjigB&quot; style=&quot;height: 219px; width: 624px;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt; &lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;It is March already, and excitement for Jakarta EE is growing. The migration to Jakarta EE is almost complete! In the wake of the successful launch of the Java EE 8-compatible Eclipse GlassFish 5.1 in January, we are keeping our sights set firmly forward. We will continue to work towards the full transition from Java EE and JCP to Jakarta EE and the new specification process. All projects related to Jakarta EE will need to be examined and established into new Eclipse Foundation Specification projects, but it’s important that we agree on specifications and project names and ensure each has a well-documented project scope before we can begin advancing the specifications.&lt;/p&gt;
+
+&lt;p&gt;Yes, it’s set to be another busy year for the Eclipse Foundation. Having welcomed aboard new specification proposals such as Jakarta EE NoSQL and Jakarta Batch, we’re going to need all hands on deck! I’ve created this blog post with the aim of making it easier for individuals to contribute to the Jakarta EE Specification.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt; The Scope of the Work&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;All of this can be daunting for people who are just starting to take interest in Jakarta EE and open source, but everyone can contribute in some easy ways to streamline the ongoing transition and advancement of the technology. If you are wondering what you can do to participate, this blog series will outline some areas where involvement is needed. I will group the work in the three major groups:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Marketing&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Technical&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Collateral&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;In the next couple of weeks, please expect more details on each.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Committer and Contributors  paperwork&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Before you start the work please ensure all agreements are executed&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Contributors:&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://www.eclipse.org/legal/ECA.php&quot;&gt;Eclipse Contributor Agreement&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Committers:&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf&quot;&gt;Eclipse Foundation Membership Agreement&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://www.eclipse.org/legal/#CommitterAgreements&quot;&gt;Member Committer and Contributor Agreement&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/legal/committer_process/EclipseIndividualCommitterAgreement.pdf&quot;&gt;Individual Committer Agreement&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://www.eclipse.org/org/workinggroups/IWG_Participation_Agreement.pdf&quot;&gt;Working Group Participation Agreement&lt;/a&gt;&lt;/p&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags: &lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/jakartaee&quot;&gt;#JakartaEE&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/participate&quot;&gt;#Participate&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/opensource&quot;&gt;#OpenSource&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/javaee&quot;&gt;#JavaEE&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 18 Mar 2019 16:04:32 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Incubation in the Eclipse Development Process</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/35IWfgzH8M0/incubation-eclipse-development-process</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/35IWfgzH8M0/incubation-eclipse-development-process</link>
+	<description>The Eclipse Development Process has a notion of phases. Two of those phases are Incubation and Mature.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/35IWfgzH8M0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 15 Mar 2019 20:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Incubation in the Eclipse Development Process</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5545</guid>
+	<link>https://waynebeaton.wordpress.com/2019/03/15/incubation-in-the-eclipse-development-process/</link>
+	<description>&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/&quot;&gt;Eclipse Development Process&lt;/a&gt; has a notion of phases. Two of those phases are &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#6_2_3_Incubation&quot;&gt;Incubation&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#6_2_4_Mature&quot;&gt;Mature&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While in both of these phases, an Eclipse open source project operates in basically the same manner: only committers can push content, committers are brought on board by election, committers accept contributions, and projects in the incubation phase can issue major, minor, and service releases. In fact, we strongly encourage all new project teams to engage in at least one release while in the incubation phase as part of learning our process. Traditionally, a project in the incubation phase numbers their releases &amp;lt; 1.0 (e.g. “0.7”), but there is no requirement to do so.&lt;/p&gt;
+&lt;p&gt;Incubation is a phase, or state, for a project. That a project is in the incubation phase (we oftentimes refer to a project in this phase as “incubating”) is a flag for adopters and the community at large that the project team is still learning the various processes that Eclipse project teams follow, or that the content produced is either unstable or volatile (e.g. APIs are likely to change while a project is in incubation). Note my use of the word “or” in the previous sentence: a project with a stable code base that has just moved to the Eclipse Foundation (with committers who are new to our process) starts in incubation.&lt;/p&gt;
+&lt;p&gt;To highlight that a project is in the incubation phase, it must implement &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#starting-project-phases&quot;&gt;incubation branding&lt;/a&gt;. Primarily, this takes the form of displaying the incubation logo in prominent locations, including the project’s major web properties and including the word “incubation” or warning that products shipped as part of a release “may include incubating components”.&lt;/p&gt;
+&lt;p&gt;For those readers who are already familiar with our incubating branding, you’ll hopefully be delighted to learn that we’ve &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=429305&quot;&gt;selected a logo&lt;/a&gt; to replace the venerable old “incubation egg” and will be rolling it out soon (while these sorts of things tend to be a team effort, we give credit to &lt;a href=&quot;https://twitter.com/stephaniejswart&quot;&gt;@stephaniejswart&lt;/a&gt; for bringing this new logo to life).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;eclipse_incubation_vertical_png-02.png&quot; class=&quot;alignnone  wp-image-5546 aligncenter&quot; height=&quot;221&quot; src=&quot;https://waynebeaton.files.wordpress.com/2019/03/eclipse_incubation_vertical_png-02.png?w=169&amp;amp;h=221&quot; width=&quot;169&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The IP process provides some additional flexibility for projects in incubation; the implication being that there may be some modest increase in intellectual property-related risk (especially when combined with a new development team who don’t yet live and breath the &lt;a href=&quot;https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf&quot;&gt;Eclipse IP Policy&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;To leave incubation, a project team must engage in a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#release-graduation&quot;&gt;graduation review&lt;/a&gt; (graduation reviews are typically combined with a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#release-review&quot;&gt;progress or release review&lt;/a&gt;). During that review, the project team must demonstrate that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The project team understands and implements the EDP and  and related processes, and understands their obligations under the Eclipse IP Policy;&lt;/li&gt;
+&lt;li&gt;The APIs are stable; and&lt;/li&gt;
+&lt;li&gt;The content produced is of “Eclipse Quality”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In practice, this takes the form of a few extra sentences in the documentation associated with the review (after, of course, actually learning the ropes and stabilizing the content quality).&lt;/p&gt;</description>
+	<pubDate>Fri, 15 Mar 2019 16:33:01 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Eclipse Xtext goes shopping - The new Bill of Materials</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/eclipse-xtext-goes-shopping-the-new-bill-of-materials</guid>
+	<link>https://blogs.itemis.com/en/eclipse-xtext-goes-shopping-the-new-bill-of-materials</link>
+	<description>&lt;p&gt;With the new 2.17 version, Xtext starts shipping a new artifact: A Maven &lt;em&gt;Bill of Materials (a.k.a. BOM)&lt;/em&gt;. Learn about our motivation and how your projects can benefit from it.&lt;/p&gt; 
+&lt;p&gt;Right on the same date as the Eclipse Photon simultaneous release on June 27th 2018, Xtext users and especially users of &lt;em&gt;xtend-maven-plugin&lt;/em&gt; were unpleasantly &lt;a href=&quot;https://github.com/eclipse/xtext/issues/1231&quot;&gt;surprised by a suddenly arising SecurityException in their builds&lt;/a&gt;, which perfectly worked the day before. Since this broke quite some builds, including our own, analysis was immediately initiated.&lt;/p&gt; 
+&lt;p&gt;On the same day, the problem was identified as a problem with the plugin’s dependencies. The plugin used version ranges, which left it to Maven’s dependency resolution mechanism to compute the actual versions of artifacts that are added to the plugin’s classpath realm. Unfortunately, this might result into resolving incompatible Eclipse core libraries. Luckily, dependencies of a Maven plugin can be overridden or extended by configuration, so users could help themselves using the instructions in the &lt;a href=&quot;https://github.com/eclipse/xtext/issues/1231#issuecomment-401125569&quot;&gt;issue comments&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Of course, we do not want users to implement workarounds, nor do we want to have any workarounds in Xtext’s code base. So streamlining dependencies was the logical task. &lt;a href=&quot;https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management&quot;&gt;Maven’s dependency mechanism&lt;/a&gt; allows declaration of managed dependencies through a &lt;code&gt;&amp;lt;dependencyManagement&amp;gt;&lt;/code&gt; section. The most common way is to declare such a section in a parent POM and inherit it from there. A less-known possibility is the &lt;em&gt;Bill of Materials&lt;/em&gt;.&lt;/p&gt; 
+&lt;h2&gt;About Maven Bill of Materials and Xtext’s BOM&lt;/h2&gt; 
+&lt;p&gt;A Maven BOM is basically a simple &lt;em&gt;pom.xml&lt;/em&gt; file with packaging type &lt;em&gt;pom&lt;/em&gt;, which in its core contains a &lt;code&gt;&amp;lt;dependencyManagement&amp;gt;&lt;/code&gt; section. The Xtext BOM declares all third-party dependencies that Xtext uses in Maven or Gradle builds. To gain an overview of the used artifact versions on first sight, the BOM declares version properties and uses them in the managed dependencies below. Here's the contents of &lt;a href=&quot;https://github.com/eclipse/xtext-lib/blob/v2.17.0.M2/releng/org.eclipse.xtext.dev-bom/pom.xml&quot;&gt;Xtext’s BOM&lt;/a&gt;:&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;project ...&amp;gt;
+  &amp;lt;groupId&amp;gt;org.eclipse.xtext&amp;lt;/groupId&amp;gt;
+  &amp;lt;artifactId&amp;gt;xtext-dev-bom&amp;lt;/artifactId&amp;gt;
+  &amp;lt;version&amp;gt;[XTEXT_VERSION]&amp;lt;/version&amp;gt;
+  &amp;lt;packaging&amp;gt;pom&amp;lt;/packaging&amp;gt;
+  ...
+  &amp;lt;properties&amp;gt;
+  &amp;lt;!-- ======== --&amp;gt;
+  &amp;lt;!-- Versions --&amp;gt;
+  &amp;lt;!-- ======== --&amp;gt;
+  &amp;lt;!-- 3rd party --&amp;gt;
+  &amp;lt;antlr-runtime-version&amp;gt;3.2&amp;lt;/antlr-runtime-version&amp;gt;
+  &amp;lt;args4j-version&amp;gt;2.33&amp;lt;/args4j-version&amp;gt;
+  &amp;lt;asm-version&amp;gt;7.0&amp;lt;/asm-version&amp;gt;
+
+  &amp;lt;error_prone_annotations-version&amp;gt;2.0.15&amp;lt;/error_prone_annotations-version&amp;gt;
+  &amp;lt;guava-version&amp;gt;21.0&amp;lt;/guava-version&amp;gt;
+  &amp;lt;guice-version&amp;gt;3.0&amp;lt;/guice-version&amp;gt;
+  &amp;lt;icu4j-version&amp;gt;52.1&amp;lt;/icu4j-version&amp;gt;
+  &amp;lt;javax.annotation-api-version&amp;gt;1.3.2&amp;lt;/javax.annotation-api-version&amp;gt;
+  &amp;lt;jsr305-version&amp;gt;3.0.2&amp;lt;/jsr305-version&amp;gt;
+  &amp;lt;junit-version&amp;gt;4.12&amp;lt;/junit-version&amp;gt;
+  &amp;lt;junit5-version&amp;gt;5.1.0&amp;lt;/junit5-version&amp;gt;
+  ...
+  &amp;lt;/properties&amp;gt;
+  &amp;lt;dependencyManagement&amp;gt;
+  &amp;lt;dependencies&amp;gt;
+    &amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;args4j&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;args4j&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;${args4j-version}&amp;lt;/version&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+    &amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;com.google.code.findbugs&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;jsr305&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;${jsr305-version}&amp;lt;/version&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+    &amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;com.google.errorprone&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;error_prone_annotations&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;${error_prone_annotations-version}&amp;lt;/version&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+    ...
+  &amp;lt;/dependencies&amp;gt;
+  &amp;lt;/dependencyManagement&amp;gt;
+&amp;lt;/project&amp;gt;&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h2&gt;Using the Xtext Bill of Materials&lt;/h2&gt; 
+&lt;p&gt;To use the BOM, clients have to declare it as a dependency in their &lt;code&gt;&amp;lt;dependencyManagement&amp;gt;&lt;/code&gt; section with scope &lt;em&gt;import:&lt;/em&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;dependencyManagement&amp;gt;
+  &amp;lt;dependencies&amp;gt;
+  &amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.eclipse.xtext&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;xtext-dev-bom&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;${xtext.version}&amp;lt;/version&amp;gt;
+    &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;
+    &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;
+  &amp;lt;/dependency&amp;gt;
+  &amp;lt;/dependencies&amp;gt;
+&amp;lt;/dependencyManagement&amp;gt;&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;p&gt;Once this is done, all artifacts managed by the BOM can be used without needing to specify a version. For example, if clients want to use JUnit 5 dependencies, they simply declare their dependencies as follows. Please note: Specification of a scope different from the default is still needed. We may evaluate to declare also scopes, e.g., &lt;em&gt;test&lt;/em&gt;&lt;code&gt;&lt;/code&gt; for testing libraries, and exclusions for transitive dependencies, e.g., &lt;em&gt;log4j&lt;/em&gt;, in future versions.&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;dependencies&amp;gt;
+  &amp;lt;dependency&amp;gt;
+  &amp;lt;groupId&amp;gt;org.junit.jupiter&amp;lt;/groupId&amp;gt;
+  &amp;lt;artifactId&amp;gt;junit-jupiter-api&amp;lt;/artifactId&amp;gt;
+  &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+  &amp;lt;/dependency&amp;gt;
+  &amp;lt;dependency&amp;gt;
+  &amp;lt;groupId&amp;gt;org.junit.jupiter&amp;lt;/groupId&amp;gt;
+  &amp;lt;artifactId&amp;gt;junit-jupiter-engine&amp;lt;/artifactId&amp;gt;
+  &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+  &amp;lt;/dependency&amp;gt;
+  ...
+&amp;lt;/dependencies&amp;gt;&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;p&gt;So, clients do no longer carefully revise each and every dependency, which thus lowers maintenance efforts. Also, clients can be sure that the managed versions of all libraries have been tested to work properly with Xtext and with each other. Of course, in the unlikely case of an incompatibility, clients still have the option to override BOM-managed dependencies by explicit versions.&lt;/p&gt; 
+&lt;h2&gt;Using the BOM with Gradle&lt;/h2&gt; 
+&lt;p&gt;Although a BOM is a Maven artifact, Gradle builds can also use it. First attempts to integrate BOMs for dependency management with Gradle have been done by the Spring framework with their &lt;a href=&quot;https://spring.io/blog/2015/02/23/better-dependency-management-for-gradle&quot;&gt;dependency-management-plugin&lt;/a&gt;. Now, with Gradle 5, direct support of BOMs have been &lt;a href=&quot;https://docs.gradle.org/5.0/userguide/managing_transitive_dependencies.html#sec:bom_import&quot;&gt;added to the Gradle framework&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;When we started exploring and using our BOM, we stumbled over some open bugs and incompatibilities, so we sticked with the Spring variant for 2.17.0.M1. But after upgrading to Gradle 5.2.1, things got easier for us and seem to be stable now. To use the Xtext BOM in Gradle builds, declare a &lt;em&gt;platform&lt;/em&gt; dependency:&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;dependencies {
+  compile platform(&quot;org.eclipse.xtext:xtext-dev-bom:${xtextVersion}&quot;)
+}&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;p&gt;As with Maven, it is not necessary to specify explicit versions if using dependencies that are managed within the BOM:&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;dependencies {
+  testCompile 'org.junit.jupiter:junit-jupiter-api'
+  testRuntime 'org.junit.jupiter:junit-jupiter-engine'
+  ...
+}&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h2&gt;A note on Guava&lt;/h2&gt; 
+&lt;p&gt;With introduction of the BOM, we decided to pin all dependency versions. One important dependency here is the Google Guava library, which Xtext supported in the range from version 14.0 to 21.0, which has been pinned to 21.0 now.&lt;/p&gt; 
+&lt;p&gt;As a positive side effect, build times could be reduced, since fewer dependency combinations have to be resolved and evaluated, especially for clients of &lt;em&gt;xtend-maven-plugin&lt;/em&gt;.&lt;/p&gt; 
+&lt;h2&gt;New &amp;amp; existing projects&lt;/h2&gt; 
+&lt;p&gt;As always, we polished Xtext’s &lt;em&gt;New Project Wizard&lt;/em&gt; to reflect the latest state of development. So, when you create new Xtext projects with the wizard for the build system of your choice, you can immediately benefit from using the BOM.&lt;/p&gt; 
+&lt;p&gt;For existing projects, we recommend to refactor them, remove the &lt;a href=&quot;https://github.com/eclipse/xtext/issues/1231#issuecomment-401125569&quot;&gt;workaround&lt;/a&gt; mentioned above and get rid off any unnecessary dependency version. A freshly-created project can serve as a good blueprint for the changes you should apply.&lt;/p&gt; 
+&lt;h2&gt;Conclusion&lt;/h2&gt; 
+&lt;p&gt;The new Xtext BOM manages all third-party dependencies of Xtext. All existing code has been refactored to make use of the BOM, and it is recommended to upgrade your projects to do the same.&lt;/p&gt; 
+&lt;p&gt;The BOM can be used from Maven and Gradle build configurations. It reduces maintenance efforts for upgrading Xtext projects and can speed up the build process slightly. Most importantly, there is no space for dependency problems if properly using managed dependencies.&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Feclipse-xtext-goes-shopping-the-new-bill-of-materials&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 12 Mar 2019 15:00:00 +0000</pubDate>
+	<author>thoms@itemis.de (Karsten Thoms)</author>
+</item>
+<item>
 	<title>Eclipse Announcements: That's A Wrap, Folks! Thank You for Participating in Our 2019 IoT Developer Survey!</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/YpWWc_7xinc/thats-wrap-folks-thank-you-participating-our-2019-iot-developer-survey</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/YpWWc_7xinc/thats-wrap-folks-thank-you-participating-our-2019-iot-developer-survey</link>
@@ -132,6 +338,86 @@
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/JQv1iSBVyC8/2019-jakarta-ee-developer-survey-underway</link>
 	<description>The Jakarta EE Working Group is launching the Jakarta EE Developer Survey for 2019!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/JQv1iSBVyC8&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Tue, 05 Mar 2019 15:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Xtext 2.17 – The Java 11 release</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/xtext-2-17-the-java-11-release</guid>
+	<link>https://blogs.itemis.com/en/xtext-2-17-the-java-11-release</link>
+	<description>&lt;p&gt;The Xtext team is proud to announce release version 2.17 of the famous Language Engineering framework. 16 individual contributors have fixed almost 100 issues and 250 pull requests with ~600 commits – and that’s just in 3 months! Xtext 2.17 participates in the Eclipse Simultaneous Release 2019-03 and is still one of the most active projects at Eclipse.&lt;/p&gt; 
+&lt;h2&gt;Full Java 11 support&lt;/h2&gt; 
+&lt;p&gt;Of course this release has a special focus on Java 11 support. With the previous version, we laid the foundation for Java 11. Full support was not possible at that time, because Xtext builds on top of various frameworks that themselves had to ship being fully enabled for Java 11 before, like Eclipse JDT, Eclipse Tycho, Eclipse EMF, Maven, Gradle, and any plugins used by them. That’s quite a bunch! But now we are happy to have them all together integrated and made ready ourselves to support the latest and greatest Java version.&lt;/p&gt; 
+&lt;h2&gt;Upgrades, upgrades, upgrades&lt;/h2&gt; 
+&lt;p&gt;We are constantly reviewing the technology stack Xtext builds upon. Everything has been updated to the latest release: Eclipse 2019-03, Gradle 5.2.1, Maven 3.6, EMF 2.15, Tycho 1.3, Eclipse MWE 2.10, ASM 7, JDT, Ace Editor 1.3.3, CodeMirror 5.41.0, Orion 17, and some more.&lt;/p&gt; 
+&lt;h2&gt;Maven BOM&lt;/h2&gt; 
+&lt;p&gt;For clients building Xtext-based applications the most noticeable change is a new artifact: A Maven &lt;em&gt;&lt;a href=&quot;https://www.javabullets.com/maven-bill-of-materialsbom/&quot;&gt;bill of materials&lt;/a&gt;&lt;/em&gt; (BOM). With help of the BOM, all third-party dependencies that Xtext relies on are managed in one central artifact. Clients do not have to care about specific versions of Eclipse Platform, EMF, Guava, etc. libraries. They just use the BOM for managing these dependencies.&lt;/p&gt; 
+&lt;p&gt;The BOM can be used for Maven and Gradle builds natively. After declaring the usage of the BOM, dependencies can be used without specifying a version. All managed libraries have been tested to work with Xtext.&lt;/p&gt; 
+&lt;h3&gt;Maven: Include BOM&lt;/h3&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;dependencyManagement&amp;gt;
+  &amp;lt;dependencies&amp;gt;
+    &amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;org.eclipse.xtext&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;xtext-dev-bom&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;${xtext.version}&amp;lt;/version&amp;gt;
+      &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;
+    &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+  &amp;lt;/dependencies&amp;gt;
+&amp;lt;/dependencyManagement&amp;gt;&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h3&gt;Maven: Use managed dependencies&lt;/h3&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;dependencies&amp;gt;
+  &amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.junit.jupiter&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;junit-jupiter-api&amp;lt;/artifactId&amp;gt;
+    &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+  &amp;lt;/dependency&amp;gt;
+  &amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.junit.jupiter&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;junit-jupiter-engine&amp;lt;/artifactId&amp;gt;
+    &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+  &amp;lt;/dependency&amp;gt;
+&amp;lt;/dependencies&amp;gt;&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h3&gt;Gradle: Include BOM&lt;/h3&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;dependencies {
+  compile platform(&quot;org.eclipse.xtext:xtext-dev-bom:${xtextVersion}&quot;)
+}&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h3&gt;Gradle: Use managed dependencies&lt;/h3&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;dependencies {
+  testCompile 'org.junit.jupiter:junit-jupiter-api'
+  testRuntime 'org.junit.jupiter:junit-jupiter-engine'
+}&lt;/pre&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;h2&gt;Some love for the Maven plugins&lt;/h2&gt; 
+&lt;p&gt;We have polished all Maven plugins shipped with Xtext. Everything has been updated to the latest Maven API and refactored to use the &lt;a href=&quot;https://maven.apache.org/plugin-tools/maven-plugin-tools-annotations/index.html&quot;&gt;annotation API&lt;/a&gt; internally. All plugins used by the plugins themselves for the build have been updated to their latest recommended version. The usage of deprecated API has been resolved and changed to also use the recommended API now.&lt;/p&gt; 
+&lt;p&gt;Also an internal but for us nonetheless important refactoring was cleaning up the plugins’ integration tests. The test cases have grown wildly over the time, and we also used here the new BOM and recommended patterns, e.g., proper plugin management and consolidation of common code in the integration tests’ parents. This helps us adding more relevant test cases, and it lowers maintenance costs.&lt;/p&gt; 
+&lt;p&gt;The plugins benefit from BOM usage with a slight performance gain, so there's a positive effect on clients, too.&lt;/p&gt; 
+&lt;h2&gt;JUnit 5 is now recommended&lt;/h2&gt; 
+&lt;p&gt;Since its introduction with Xtext 2.14 (Eclipse Photon, June 2018), the new JUnit 5 support API has been kept a restricted API. Clients using these classes experienced access restriction warnings. We now felt that the API is stable enough to open it up as public API.&lt;/p&gt; 
+&lt;p&gt;The &lt;em&gt;New Project Wizard&lt;/em&gt; will now default to JUnit 5 for selection of testing support.&lt;/p&gt; 
+&lt;h2&gt;Xtend supports static member favorites&lt;/h2&gt; 
+&lt;p&gt;A nice and maybe not well known feature of JDT is the definition of &lt;a href=&quot;https://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fpreferences%2Fjava%2Feditor%2Fref-preferences-content-assist-favorites.htm&quot;&gt;favorites for adding static imports&lt;/a&gt;. The types considered for importing static methods are configured for Java in &lt;em&gt;Java → Editor → Content Assist → Favorites&lt;/em&gt;.&lt;/p&gt; 
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img alt=&quot;Xtext 2.17 Release: Static Member Favorites Preference Page&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog%20(2019)/Software%20Development/Xtext%202.17%20-%20The%20Java%2011%20Release/xtext-2.17-release-static-member-favorites-preference-page.png?width=600&amp;amp;name=xtext-2.17-release-static-member-favorites-preference-page.png&quot; style=&quot;width: 600px; display: block; margin: 0px auto;&quot; width=&quot;600&quot; /&gt;&lt;em&gt;Static member favorites preference page&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt; &lt;/p&gt; 
+&lt;p&gt;Good news! Xtend does now also evaluates this preference and allows automatically adding static method imports by using its content assist facility. Try it out and use it (also in Java ;-) ).&lt;/p&gt; 
+&lt;h2&gt;Good-bye Maven Android archetype &amp;amp; GWT library support&lt;/h2&gt; 
+&lt;p&gt;It was time to clean up some more. Features that are typically no longer used anymore are the Maven archetype to create Android applications and the GWT support bundles &lt;em&gt;org.eclipse.xtend.lib.gwt&lt;/em&gt; and &lt;em&gt;org.eclipse.xtext.xbase.lib.gwt&lt;/em&gt;. Any objections? Then please get in touch with us and raise your voice! We will listen.&lt;/p&gt; 
+&lt;h2&gt;Improved release speed&lt;/h2&gt; 
+&lt;p&gt;With this release, we participated in all three milestones of the &lt;a href=&quot;https://wiki.eclipse.org/SimRel/2019-03/Simultaneous_Release_Plan&quot;&gt;Eclipse Simultaneous Release&lt;/a&gt; for the first time. Until now, it is still a surprisingly high effort to get a release shipped. We mainly struggle with flaky tests and the build infrastructure. Unfortunately, this hits us especially on release dates when builds are especially slow. We are not the only project on the machine that is doing release builds at this time.&lt;/p&gt; 
+&lt;p&gt;Slowly our invests in the automation of creating release branches are paying off. With each milestone, the scripts were improved, and we are able to create release branches with a single click. In the best case, this means just waiting several hours for all the builds to complete. But as said, things do not always go smoothly, and failing UI tests (that worked totally fine on the master branch before) force us to retrigger builds, which take hours to complete again, and that several times. Our focus therefore in on making test execution more reliable.&lt;/p&gt; 
+&lt;p&gt;We further plan to participate in the full Eclipse simultaneous release cycle, which means four releases each three months, i.e. three milestones and the final release.&lt;/p&gt; 
+&lt;h2&gt;Behind the scenes&lt;/h2&gt; 
+&lt;p&gt;Most of the work happens on code that is not visible to most users. Fixing bugs is always included, and we are fixing several of them with each release. Most of these bugs, users won’t even notice. Xtext can be considered rather stable and mature nowadays.&lt;/p&gt; 
+&lt;p&gt;We have worked quite a lot on the implementation of UI tests, mainly to reduce the risk of flaky tests, which is, as mentioned above, still a sore point. Also, speeding up tests was in focus. The UI tests take the lion's share of our build time. And for each combination of project setup and build configuration the wizard can produce, we have added an integration test. Quite likely, we will dedicate a separate blog post to our testing efforts.&lt;/p&gt; 
+&lt;p&gt;Major effort is also put into build and release engineering tasks. We are preparing to move the build infrastructure to the Common Build Infrastructure (CBI). With Xtext, we were one of the guinea pig projects for that infrastructure. We are still not fully done here and are still struggling with getting our builds, including UI tests, to run under CBI. In the past, the new infrastructure felt unstable like a Jenga tower built by 20 drunk teenagers. Nonetheless, the Eclipse CBI team is very responsive and helpful, and we are working together to get our builds to run reliably on CBI. Again, worth another blog post or more to share our experience.&lt;/p&gt; 
+&lt;p&gt;Everything we need to build Xtext has been updated to its latest state (see “upgrades” section above), and we cleaned up the code base. The number of warnings and of usages of deprecated or restricted APIs has reached a new minimum.&lt;/p&gt; 
+&lt;h2&gt;Summary&lt;/h2&gt; 
+&lt;p&gt;Xtext 2.17 and the technology stack below it is now supporting Java 11 completely. All third-party components have been lifted to their latest states, respectively. Besides that, the technical debt has been reduced by internal refactorings and revised UI tests. The new Maven BOM facilitates the dependency management for Maven and Gradle build configurations and reduces the risk of misconfiguration or build build problems. The release cadence is now fully in sync with the new Eclipse rolling releases.&lt;/p&gt; 
+&lt;p&gt;Do you want to know more? Have a look at the &lt;a href=&quot;https://www.eclipse.org/Xtext/releasenotes.html#/releasenotes/2019/03/05/version-2-17-0&quot;&gt;release notes for Xtext&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.eclipse.org/xtend/releasenotes.html#/releasenotes/2019/03/05/version-2-17-0&quot;&gt;Xtend&lt;/a&gt;.&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fxtext-2-17-the-java-11-release&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 04 Mar 2019 19:45:37 +0000</pubDate>
+	<author>thoms@itemis.de (Karsten Thoms)</author>
 </item>
 <item>
 	<title>Eclipse Announcements: Jakarta EE - What's New in 2019?</title>
@@ -340,150 +626,6 @@ October 22 - 24: Conference
 	<link>https://www.infoq.com/news/2019/02/eclipse-release-microprofile-22?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
 	<description>&lt;img src=&quot;https://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;The Eclipse foundation recently released MicroProfile 2.2, helping developers to create microservices on top of EE 8. This release comes at the same time that Eclipse is taking over as steward of Java EE and rebranding it to Jakarta EE.&lt;/p&gt; &lt;i&gt;By Erik Costlow&lt;/i&gt;</description>
 	<pubDate>Fri, 22 Feb 2019 06:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>Jens Reimann: Integrating Eclipse IoT</title>
-	<guid isPermaLink="false">https://dentrassi.de/?p=4107</guid>
-	<link>https://dentrassi.de/2019/02/20/integrating-eclipse-iot/</link>
-	<description>&lt;p&gt;The Eclipse IoT project is a top level project at the Eclipse Foundation. It currently consists of around 40 projects, which focus on different aspects of IoT. This may either be complete solutions, like the &lt;a href=&quot;https://www.eclipse.org/smarthome/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse SmartHome&lt;/a&gt; project, the PLC runtime and IDE, &lt;a href=&quot;https://www.eclipse.org/4diac/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse 4DIAC&lt;/a&gt;. Or it may be building block projects, like the MQTT libraries of &lt;a href=&quot;https://www.eclipse.org/paho/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Paho&lt;/a&gt;, or the cloud scale IoT messaging infrastructure of &lt;a href=&quot;https://www.eclipse.org/hono/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt;. I can only encourage you to have a look at the &lt;a href=&quot;https://iot.eclipse.org/projects/&quot;&gt;list of projects&lt;/a&gt; and do a bit of exploring.&lt;/p&gt;
-
-
-
-&lt;p&gt;And while it is great to a have a diverse set of projects, covering &lt;a href=&quot;https://iot.eclipse.org/white-papers/iot-architectures/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;the three tiers of IoT &lt;/a&gt;(Device, Gateway and Cloud), it can be a challenge to explain people, how all of those projects can create something, which is bigger than the individual projects. Because having 40 different IoT projects is great, but imagine the possibilities of having a whole IoT ecosystem of projects. Mixing and matching, building your IoT solution as you see fit.&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-4107&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;h3&gt;IoT means different things to different people&lt;/h3&gt;
-
-
-
-&lt;p&gt;Everyone sees something different in the “Internet of Things”. Looking at the introduction on Wikipedia, you may understand why:&lt;/p&gt;
-
-
-
-&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;The Internet of things (IoT) is the network of devices such as vehicles, and home appliances that contain electronics, software, sensors, actuators, and connectivity which allows these things to connect, interact and exchange data&lt;/p&gt;&lt;cite&gt;Wikipedia – “Internet of Things”&lt;/cite&gt;&lt;/blockquote&gt;
-
-
-
-&lt;p&gt;While it is absolutely valid, it is also rather vague and covers quite a few use cases. This is also being reflected by the different projects of Eclipse IoT. Different projects cover different areas, sometimes they overlap, but sometimes they don’t. Sometimes to follow similar principles, and sometimes they don’t. Most people are caught up in their daily work, contributing to the projects you focus on. But it might be beneficial for everyone, to look a bit over the fence and try to establish a common ground, creating a more integrated Eclipse IoT experience&lt;/p&gt;
-
-
-
-&lt;h3&gt;Let’s draw a map&lt;/h3&gt;
-
-
-
-&lt;p&gt;One of the biggest problems, and not only when you are a newcomer to Eclipse IoT, is to understand what is already there, and how it works together. Because, yes it does work together! Finding out “how” can however be challenging. Many projects already have some kind of documentation on how to set up project X with project Y. In most cases such information stored in the project’s Git repository, some blog post or only lives in a forum or mailing list.&lt;/p&gt;
-
-
-
-&lt;p&gt;So we tried to find a format on how to bring this all together, and also motivate projects to actively contribute to that format. A single person cannot know and understand how all those different projects work together, but the committers on each project know their projects and existing integration points best. And they can also easily point you to the necessary documentation. The result, that resonated quite well with people is a simple, interactive map of the integrated projects:&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image is-resized&quot;&gt;&lt;a href=&quot;https://ctron.github.io/eclipse-iot-integration-map/&quot; rel=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-4121&quot; height=&quot;647&quot; src=&quot;https://dentrassi.de/wp-content/uploads/Selection_583.png&quot; width=&quot;824&quot; /&gt;&lt;/a&gt;Eclipse IoT integration map – &lt;a href=&quot;https://ctron.github.io/eclipse-iot-integration-map/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;https://ctron.github.io/eclipse-iot-integration-map/&lt;/a&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;This map represents a condensed view on the current state of &lt;a href=&quot;https://ctron.github.io/eclipse-iot-integration-map/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT integration&lt;/a&gt;, to the best of my knowledge. But please fix that latter part, by using the “&lt;a href=&quot;https://github.com/ctron/eclipse-iot-integration-map&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Fork me!&lt;/a&gt;” button. Adding a new project to that map is only one pull request away. And if you are new to Eclipse IoT, then go ahead and explore the map.&lt;/p&gt;
-
-
-
-&lt;h3&gt;Get started quickly&lt;/h3&gt;
-
-
-
-&lt;p&gt;Getting started still is hard. Yes, most projects do have some kind of “quick start” tutorial, which gets you started within a few minutes. However, the more components and projects you add, the more complex and time consuming it gets. Mostly because you need to figure out the integration part yourself:&lt;/p&gt;
-
-
-
-&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Getting us started with Eclipse IoT took us four months. On the other hand we don’t want to reinvent the wheel, especially when it comes to a complex piece of infrastructure like an IoT platform. Our target market requires being able to run on-premise, ruling out the majority of IoT platforms offered in the cloud. Using and actively participating in an open source IoT platform and exposing open API’s to our customers for integrating the IoT platform aligns perfectly with our vision.&lt;/p&gt;&lt;cite&gt;Bob Claerhout – &lt;a href=&quot;http://www.aloxy.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Aloxy&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-
-
-
-&lt;p&gt;I was really glad that I joined the &lt;a href=&quot;https://wiki.eclipse.org/IoT/M2MIWG/Weekly_call_minutes&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;bi-weekly Eclipse IoT community call&lt;/a&gt; that day. Because hearing that feedback, from someone who just started to look into the ecosystem, confirmed two things: Eclipse IoT can be a pretty valuable asset for the IoT solution you are building. But I think we should make it way easier to consume those projects, or at least to get people started quicker. Just a little bit later, a first, small PR from Bob landed in the Eclipse Hono project, proving that the open source approach works just fine.&lt;/p&gt;
-
-
-
-&lt;p&gt;But not everyone is that persistent and keeps trying that hard. What we need is good starting point, a super-opinionated deployment. Showing the basics of each of the projects, in some kind of integrated deployment. You will never take this out into production, but it should help you to get started, and allow you to explore what is already there. See how it works, let you play around with a running instance of the components you chose to deploy.&lt;/p&gt;
-
-
-
-&lt;h3&gt;We are close&lt;/h3&gt;
-
-
-
-&lt;p&gt;And actually we are pretty close to that target. It just needs a bit of polish, and we have a nice starting point. Over the last year or so, we have built a kind of “example”, “demo setup”, whatever you will call it. It all started with a simple deployment of Eclipe Hono, including an IoT gateway simulator and a “Demo Gauge”, which acts as a web frontend, showing the simulated data in a web browser.&lt;/p&gt;
-
-
-
-&lt;p&gt;Over the time we extended this and now have an example of telemetry data ingestion, using &lt;a href=&quot;https://www.eclipse.org/kura/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Kura&lt;/a&gt; as an IoT gateway, connecting to &lt;a href=&quot;https://eclipse.org/hono/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt; and &lt;a href=&quot;http://enmasse.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;EnMasse&lt;/a&gt; as the IoT messaging layer. Pushing data via &lt;a href=&quot;https://camel.apache.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Apache Camel&lt;/a&gt; to &lt;a href=&quot;https://kafka.apache.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Apache Kafka&lt;/a&gt;, and then running the “&lt;a href=&quot;https://github.com/ctron/hono-example-demo-gauge&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Demo Gauge&lt;/a&gt;” application to show the data. Alongside we deploy &lt;a href=&quot;https://www.eclipse.org/che/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Che&lt;/a&gt;, to show how you can start developing on the same cloud infrastructure that the IoT stack is deployed to. All of that is running on Kubernetes based &lt;a href=&quot;https://www.okd.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;OKD&lt;/a&gt;, using a source-to-image, devops style deployment model.&lt;/p&gt;
-
-
-
-&lt;p&gt;Like the integration map, it is right here on GitHub: &lt;a href=&quot;https://github.com/redhat-iot/iot-cloud-stack-ece2018&quot;&gt;https://github.com/redhat-iot/iot-cloud-stack-ece2018&lt;/a&gt;. A hand full of people already contributes to that effort over time. But, compared to the integration map, this “Tutorial” repository needs a bit of cleanup. And instead of running through it sequentially, it might be better to approach this from a feature based perspective. Deploying a core infrastructure, and then allowing for a few choices, of what you would like to deploy in addition.&lt;/p&gt;
-
-
-
-&lt;h3&gt;Gathering recipes&lt;/h3&gt;
-
-
-
-&lt;p&gt;So let’s simply start with a fresh repository. Name it “&lt;a href=&quot;https://github.com/ctron/eclipse-iot-recipes&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT recipes&lt;/a&gt;“, for the time being, and re-organize the content a little bit: &lt;a href=&quot;https://github.com/ctron/eclipse-iot-recipes&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;https://github.com/ctron/eclipse-iot-recipes&lt;/a&gt; … that wasn’t too difficult &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/11.2.0/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;The goal should be, that within a few hours, you have a system up and running. A system which allows you to play at least with the basics. And everyone who would like to add something, can easily do that with a PR. And “adding” might also be to provide an alternative path. Replace the IoT gateway, replace the messaging layer, … whatever you have in mind.&lt;/p&gt;
-
-
-
-&lt;p&gt;I still think it is helpful to have some manual steps, with a little bit of explanation, rather than a fully automated script. From my experience, you learn a lot more when you do things yourself, rather than watching a script doing things for you.&lt;/p&gt;
-
-
-
-&lt;h3&gt;Play with it … and contribute!&lt;/h3&gt;
-
-
-
-&lt;p&gt;Now it is up to you, to test this, play with it, and contribute. Provide feedback, make suggestions, or fork it and turn it upside down.&lt;/p&gt;
-
-
-
-&lt;p&gt;Or just explore what Eclipse IoT has to offer.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://dentrassi.de/2019/02/20/integrating-eclipse-iot/&quot; rel=&quot;nofollow&quot;&gt;Integrating Eclipse IoT&lt;/a&gt; appeared first on &lt;a href=&quot;https://dentrassi.de&quot; rel=&quot;nofollow&quot;&gt;ctron's blog&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Wed, 20 Feb 2019 12:28:51 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Eclipse Releases GlassFish 5.1 Certified as Compatible with Java EE 8</title>
-	<guid isPermaLink="true">https://www.infoq.com/news/2019/02/eclipse-releases-glassfish-5.1?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>https://www.infoq.com/news/2019/02/eclipse-releases-glassfish-5.1?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;https://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Eclipse has achieved another GlassFish milestone with the anticipated GA release of version 5.1. A year in the making, this milestone included previous GlassFish milestones such as the full migration of source code and open-sourcing the Java EE TCK (September 2018), the RC1 release of GlassFish 5.1 (October 2018), and the integration of EclipseLink and Eclipse Jersey in GlassFish (December 2018).&lt;/p&gt; &lt;i&gt;By Michael Redlich&lt;/i&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 09:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: As a matter of Factory — Part 3 (Method Chaining)</title>
-	<guid isPermaLink="false">https://medium.com/p/224217074d31</guid>
-	<link>https://medium.com/oracledevs/as-a-matter-of-factory-part-3-method-chaining-224217074d31?source=rss-df39b86e9f04------2</link>
-	<description>&lt;h3&gt;As a matter of Factory — Part 3 (Method Chaining)&lt;/h3&gt;&lt;p&gt;Learn how to add or remove elements from Java collections fluently by leveraging a few lesser known APIs in &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*4L89DAN4fMUKpj8TdwLV7Q.jpeg&quot; /&gt;Let’s take a look under the hood at some lesser known APIs in Eclipse Collections.&lt;/figure&gt;&lt;h3&gt;Static Factories&lt;/h3&gt;&lt;p&gt;In the &lt;a href=&quot;https://medium.com/@donraab/as-a-matter-of-factory-part-1-mutable-75cc2c5d72d9&quot;&gt;first&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@donraab/as-a-matter-of-factory-part-2-immutable-8cb72ff897ee&quot;&gt;second&lt;/a&gt; installment of the “As a matter of Factory” blog series, I described how to use the methods available on the &lt;em&gt;Lists&lt;/em&gt;, &lt;em&gt;Sets&lt;/em&gt;, and &lt;em&gt;Maps&lt;/em&gt; classes to create and initialize mutable and immutable collections. For example, there are static instances of &lt;em&gt;MutableListFactory&lt;/em&gt; and &lt;em&gt;ImmutableListFactory&lt;/em&gt; on the Lists class, stored in the public static final variables named &lt;em&gt;mutable&lt;/em&gt; and &lt;em&gt;immutable&lt;/em&gt;.&lt;/p&gt;&lt;pre&gt;MutableList&amp;lt;String&amp;gt; list = &lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;);&lt;/pre&gt;&lt;pre&gt;ImmutableList&amp;lt;String&amp;gt; list = &lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;);&lt;/pre&gt;&lt;p&gt;The method &lt;em&gt;with&lt;/em&gt; is overloaded on the &lt;em&gt;MutableListFactory&lt;/em&gt; class. One version of the &lt;em&gt;with&lt;/em&gt; method takes no parameters, and returns an empty &lt;em&gt;MutableList&lt;/em&gt;. The other version of the method takes a &lt;em&gt;varargs&lt;/em&gt; parameter which will construct a &lt;em&gt;MutableList&lt;/em&gt; with the parameters specified.&lt;/p&gt;&lt;h3&gt;Fluent Mutable Interfaces&lt;/h3&gt;&lt;p&gt;The static factory methods are not the only way you can initialize a &lt;em&gt;List&lt;/em&gt;, &lt;em&gt;Set&lt;/em&gt;, &lt;em&gt;Bag&lt;/em&gt; or &lt;em&gt;Map&lt;/em&gt;. There are methods available directly on the mutable interfaces that can be used to mutate collections fluently. Each method will mutate the underlying collection by adding or removing an element and then returning the same collection.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*hxgYPl7zUiZAhysHAw4dKQ.png&quot; /&gt;Fluent methods available on Mutable interfaces for mutating collections&lt;/figure&gt;&lt;h4&gt;Equivalent Methods from JDK interfaces&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;with -&amp;gt; add&lt;/li&gt;&lt;li&gt;without -&amp;gt; remove&lt;/li&gt;&lt;li&gt;withAll -&amp;gt; addAll&lt;/li&gt;&lt;li&gt;withoutAll -&amp;gt; removeAll&lt;/li&gt;&lt;li&gt;withKeyValue -&amp;gt; put&lt;/li&gt;&lt;li&gt;withoutKey -&amp;gt; removeKey&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fluently building Maps&lt;/h3&gt;&lt;p&gt;The &lt;em&gt;with&lt;/em&gt; method on &lt;em&gt;MutableListFactory&lt;/em&gt; can construct a &lt;em&gt;MutableList&lt;/em&gt; with a variable number of items, but the same is not true for &lt;em&gt;MutableMapFactory&lt;/em&gt;. The &lt;em&gt;with&lt;/em&gt; method on &lt;em&gt;MutableMapFactory&lt;/em&gt; is overloaded five times.&lt;/p&gt;&lt;pre&gt;&amp;lt;K, V&amp;gt; MutableMap&amp;lt;K, V&amp;gt; with();&lt;/pre&gt;&lt;pre&gt;&amp;lt;K, V&amp;gt; MutableMap&amp;lt;K, V&amp;gt; with(K key, V value);&lt;/pre&gt;&lt;pre&gt;&amp;lt;K, V&amp;gt; MutableMap&amp;lt;K, V&amp;gt; with(K key1, V value1, K key2, V value2);&lt;/pre&gt;&lt;pre&gt;&amp;lt;K, V&amp;gt; MutableMap&amp;lt;K, V&amp;gt; with(K key1, V value1, K key2, V value2, K key3, V value3);&lt;/pre&gt;&lt;pre&gt;&amp;lt;K, V&amp;gt; MutableMap&amp;lt;K, V&amp;gt; with(K key1, V value1, K key2, V value2, K key3, V value3, K key4, V value4);&lt;/pre&gt;&lt;p&gt;You can only use the &lt;em&gt;with&lt;/em&gt; method method to create a &lt;em&gt;MutableMap&lt;/em&gt; with up to four keys and values.&lt;/p&gt;&lt;pre&gt;MutableMap&amp;lt;Integer, String&amp;gt; map =&lt;br /&gt;        Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;                1, &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;,&lt;br /&gt;                2, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;,&lt;br /&gt;                3, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;,&lt;br /&gt;                4, &lt;strong&gt;&quot;Four&quot;&lt;/strong&gt;);&lt;/pre&gt;&lt;h4&gt;What do you do if you need more than four keys and values?&lt;/h4&gt;&lt;p&gt;There is a method named &lt;em&gt;withKeyValue&lt;/em&gt; on &lt;em&gt;MutableMap&lt;/em&gt; which can be used to fluently add an unlimited number of key and value pairs by leveraging method chaining.&lt;/p&gt;&lt;h4&gt;Fluently building a MutableMap using withKeyValue&lt;/h4&gt;&lt;pre&gt;MutableMap&amp;lt;Integer, String&amp;gt; numbers =&lt;br /&gt;        Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;Integer, String&amp;gt;empty()&lt;br /&gt;                .withKeyValue(0, &lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(1, &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(2, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(3, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(4, &lt;strong&gt;&quot;Four&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(5, &lt;strong&gt;&quot;Five&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(6, &lt;strong&gt;&quot;Six&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(7, &lt;strong&gt;&quot;Seven&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(8, &lt;strong&gt;&quot;Eight&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(9, &lt;strong&gt;&quot;Nine&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(10, &lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;);&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;, numbers.get(0));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, numbers.get(1));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;, numbers.get(10));&lt;/pre&gt;&lt;h4&gt;The withKeyValue method&lt;/h4&gt;&lt;pre&gt;public MutableMap&amp;lt;K, V&amp;gt; withKeyValue(K key, V value)&lt;br /&gt;{&lt;br /&gt;    this.put(key, value);&lt;br /&gt;    return this;&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;Fluently building an ImmutableMap&lt;/h4&gt;&lt;pre&gt;ImmutableMap&amp;lt;Integer, String&amp;gt; numbers =&lt;br /&gt;        Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;Integer, String&amp;gt;empty()&lt;br /&gt;                .withKeyValue(0, &lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(1, &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(2, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(3, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(4, &lt;strong&gt;&quot;Four&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(5, &lt;strong&gt;&quot;Five&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(6, &lt;strong&gt;&quot;Six&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(7, &lt;strong&gt;&quot;Seven&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(8, &lt;strong&gt;&quot;Eight&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(9, &lt;strong&gt;&quot;Nine&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(10, &lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;)&lt;br /&gt;                .toImmutable();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;, numbers.get(0));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, numbers.get(1));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;, numbers.get(10));&lt;/pre&gt;&lt;h4&gt;Fluently building an Immutable object / primitive Map&lt;/h4&gt;&lt;pre&gt;ObjectIntMap&amp;lt;String&amp;gt; numbers =&lt;br /&gt;        ObjectIntMaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;String&amp;gt;empty()&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;, 0)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, 1)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;, 2)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;, 3)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Four&quot;&lt;/strong&gt;, 4)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Five&quot;&lt;/strong&gt;, 5)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Six&quot;&lt;/strong&gt;, 6)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Seven&quot;&lt;/strong&gt;, 7)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Eight&quot;&lt;/strong&gt;, 8)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Nine&quot;&lt;/strong&gt;, 9)&lt;br /&gt;                .withKeyValue(&lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;, 10)&lt;br /&gt;                .toImmutable();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(0, numbers.get(&lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, numbers.get(&lt;strong&gt;&quot;One&quot;&lt;/strong&gt;));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(10, numbers.get(&lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;));&lt;/pre&gt;&lt;h4&gt;Fluently building an Immutable primitive / object Map&lt;/h4&gt;&lt;pre&gt;IntObjectMap&amp;lt;String&amp;gt; numbers =&lt;br /&gt;        IntObjectMaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;String&amp;gt;empty()&lt;br /&gt;                .withKeyValue(0, &lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(1, &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(2, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(3, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(4, &lt;strong&gt;&quot;Four&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(5, &lt;strong&gt;&quot;Five&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(6, &lt;strong&gt;&quot;Six&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(7, &lt;strong&gt;&quot;Seven&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(8, &lt;strong&gt;&quot;Eight&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(9, &lt;strong&gt;&quot;Nine&quot;&lt;/strong&gt;)&lt;br /&gt;                .withKeyValue(10, &lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;)&lt;br /&gt;                .toImmutable();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Zero&quot;&lt;/strong&gt;, numbers.get(0));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, numbers.get(1));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Ten&quot;&lt;/strong&gt;, numbers.get(10));&lt;/pre&gt;&lt;h4&gt;Fluently building an Immutable primitive / primitive Map&lt;/h4&gt;&lt;pre&gt;IntCharMap numbers = IntCharMaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty()&lt;br /&gt;        .withKeyValue(0, &lt;strong&gt;'0'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(1, &lt;strong&gt;'1'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(2, &lt;strong&gt;'2'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(3, &lt;strong&gt;'3'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(4, &lt;strong&gt;'4'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(5, &lt;strong&gt;'5'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(6, &lt;strong&gt;'6'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(7, &lt;strong&gt;'7'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(8, &lt;strong&gt;'8'&lt;/strong&gt;)&lt;br /&gt;        .withKeyValue(9, &lt;strong&gt;'9'&lt;/strong&gt;)&lt;br /&gt;        .toImmutable();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;'0'&lt;/strong&gt;, numbers.get(0));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;'1'&lt;/strong&gt;, numbers.get(1));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;'9'&lt;/strong&gt;, numbers.get(9));&lt;/pre&gt;&lt;h3&gt;Fluently building Lists, Sets and Bags&lt;/h3&gt;&lt;p&gt;Fluently building a &lt;em&gt;Map&lt;/em&gt; using method chaining is often more useful than fluently building a &lt;em&gt;List&lt;/em&gt;, &lt;em&gt;Set&lt;/em&gt;, or &lt;em&gt;Bag&lt;/em&gt;. Still the functionality exists if and when you need it.&lt;/p&gt;&lt;h4&gt;Fluently building a List&lt;/h4&gt;&lt;pre&gt;ImmutableList&amp;lt;Integer&amp;gt; numbers =&lt;br /&gt;        Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(Interval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Interval.&lt;em&gt;oneTo&lt;/em&gt;(10), numbers);&lt;/pre&gt;&lt;p&gt;Notice that I used two methods to fluently build the &lt;em&gt;MutableList&lt;/em&gt;. The method &lt;em&gt;with&lt;/em&gt; takes a single argument and the method &lt;em&gt;withAll&lt;/em&gt; takes an &lt;em&gt;Iterable&lt;/em&gt;.&lt;/p&gt;&lt;h4&gt;The with method&lt;/h4&gt;&lt;pre&gt;public MutableList&amp;lt;T&amp;gt; with(T element)&lt;br /&gt;{&lt;br /&gt;    this.add(element);&lt;br /&gt;    return this;&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;The withAll method&lt;/h4&gt;&lt;pre&gt;public MutableList&amp;lt;T&amp;gt; withAll(Iterable&amp;lt;? extends T&amp;gt; elements)&lt;br /&gt;{&lt;br /&gt;    this.addAllIterable(elements);&lt;br /&gt;    return this;&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;Fluently building a Set&lt;/h4&gt;&lt;pre&gt;ImmutableSet&amp;lt;Integer&amp;gt; numbers =&lt;br /&gt;        Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(Interval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Interval.&lt;em&gt;oneTo&lt;/em&gt;(10).toSet(), numbers);&lt;/pre&gt;&lt;h4&gt;Fluently building a Bag&lt;/h4&gt;&lt;pre&gt;ImmutableBag&amp;lt;Integer&amp;gt; numbers =&lt;br /&gt;        Bags.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(Interval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Interval.&lt;em&gt;oneTo&lt;/em&gt;(10).toBag(), numbers);&lt;/pre&gt;&lt;h4&gt;Fluently building primitive Lists, Sets and Bags&lt;/h4&gt;&lt;pre&gt;ImmutableIntList list =&lt;br /&gt;        IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(IntInterval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(IntInterval.&lt;em&gt;oneTo&lt;/em&gt;(10), list);&lt;/pre&gt;&lt;pre&gt;ImmutableIntSet set =&lt;br /&gt;        IntSets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(IntInterval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(IntInterval.&lt;em&gt;oneTo&lt;/em&gt;(10).toSet(), set);&lt;/pre&gt;&lt;pre&gt;ImmutableIntBag bag =&lt;br /&gt;        IntBags.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1)&lt;br /&gt;                .with(2)&lt;br /&gt;                .with(3)&lt;br /&gt;                .with(4)&lt;br /&gt;                .withAll(IntInterval.&lt;em&gt;fromTo&lt;/em&gt;(5, 10))&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(IntInterval.&lt;em&gt;oneTo&lt;/em&gt;(10).toBag(), bag);&lt;/pre&gt;&lt;h3&gt;Using withAll in Collectors2&lt;/h3&gt;&lt;p&gt;The &lt;em&gt;withAll&lt;/em&gt; method is very useful for building Collectors which return collections. The &lt;em&gt;withAll&lt;/em&gt; method is used repeatedly as a method reference in the &lt;em&gt;Collectors2&lt;/em&gt; class of Eclipse Collections.&lt;/p&gt;&lt;h4&gt;Collectors2.toList()&lt;/h4&gt;&lt;pre&gt;public static &amp;lt;T&amp;gt; Collector&amp;lt;T, ?, MutableList&amp;lt;T&amp;gt;&amp;gt; toList()&lt;br /&gt;{&lt;br /&gt;    return Collector.&lt;em&gt;of&lt;/em&gt;(&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;::empty,&lt;br /&gt;            MutableList::add,&lt;br /&gt;            MutableList::withAll,&lt;br /&gt;            &lt;strong&gt;&lt;em&gt;EMPTY_CHARACTERISTICS&lt;/em&gt;&lt;/strong&gt;);&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;Collectors2.toImmutableList()&lt;/h4&gt;&lt;pre&gt;public static &amp;lt;T&amp;gt; Collector&amp;lt;T, ?, ImmutableList&amp;lt;T&amp;gt;&amp;gt; toImmutableList()&lt;br /&gt;{&lt;br /&gt;    return Collector.&amp;lt;T, MutableList&amp;lt;T&amp;gt;, ImmutableList&amp;lt;T&amp;gt;&amp;gt;&lt;em&gt;of&lt;/em&gt;(&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;::empty,&lt;br /&gt;            MutableList::add,&lt;br /&gt;            MutableList::withAll,&lt;br /&gt;            MutableList::toImmutable,&lt;br /&gt;            &lt;strong&gt;&lt;em&gt;EMPTY_CHARACTERISTICS&lt;/em&gt;&lt;/strong&gt;);&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;Collectors2.countBy(Function)&lt;/h4&gt;&lt;pre&gt;public static &amp;lt;T, K&amp;gt; Collector&amp;lt;T, ?, MutableBag&amp;lt;K&amp;gt;&amp;gt; countBy(Function&amp;lt;? super T, ? extends K&amp;gt; function)&lt;br /&gt;{&lt;br /&gt;    return Collector.&lt;em&gt;of&lt;/em&gt;(&lt;br /&gt;            Bags.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;::empty,&lt;br /&gt;            (bag, each) -&amp;gt; bag.with(&lt;em&gt;function&lt;/em&gt;.valueOf(each)),&lt;br /&gt;            MutableBag::withAll,&lt;br /&gt;            &lt;strong&gt;&lt;em&gt;EMPTY_CHARACTERISTICS&lt;/em&gt;&lt;/strong&gt;);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;With or Without&lt;/h3&gt;&lt;p&gt;We like to provide good symmetry in Eclipse Collections. If you can fluently add items to a collection, then it would make sense to be be able to remove items from a collection fluently.&lt;/p&gt;&lt;h4&gt;The without method on UnifiedSet&lt;/h4&gt;&lt;pre&gt;public UnifiedSet&amp;lt;T&amp;gt; without(T element)&lt;br /&gt;{&lt;br /&gt;    this.remove(element);&lt;br /&gt;    return this;&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;Here’s an example combining some of the fluent aspects of the Eclipse Collections factories.&lt;/p&gt;&lt;pre&gt;ImmutableSet&amp;lt;String&amp;gt; strings =&lt;br /&gt;        Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;or&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;without&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;you&quot;&lt;/strong&gt;)&lt;br /&gt;                .with(&lt;strong&gt;&quot;or&quot;&lt;/strong&gt;)&lt;br /&gt;                .without(&lt;strong&gt;&quot;you&quot;&lt;/strong&gt;)&lt;br /&gt;                .toImmutable();&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;or&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;without&quot;&lt;/strong&gt;), strings);&lt;/pre&gt;&lt;h3&gt;Final Thoughts&lt;/h3&gt;&lt;p&gt;Hopefully you found the information and examples in this blog useful. This blog was inspired by a recent &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/pull/699&quot;&gt;pull request&lt;/a&gt; submitted to Eclipse Collections. There are a lot of hidden gems inside of Eclipse Collections. I like to write about them when it becomes clear they are not so easily discovered.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=224217074d31&quot; width=&quot;1&quot; /&gt;&lt;hr /&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/oracledevs/as-a-matter-of-factory-part-3-method-chaining-224217074d31&quot;&gt;As a matter of Factory — Part 3 (Method Chaining)&lt;/a&gt; was originally published in &lt;a href=&quot;https://medium.com/oracledevs&quot;&gt;Oracle Developers&lt;/a&gt; on Medium, where people are continuing the conversation by highlighting and responding to this story.&lt;/p&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 03:52:43 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Presentation: Getting Super Productive with Spring Tools 4 and Spring Boot 2</title>
-	<guid isPermaLink="true">https://www.infoq.com/presentations/spring-tools-5-boot-2?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>https://www.infoq.com/presentations/spring-tools-5-boot-2?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;https://res.infoq.com/presentations/spring-tools-5-boot-2/en/headerimage/Alexbig-1550020694881.JPG&quot; /&gt;&lt;p&gt;Alex Boyko and Martin Lippert show how to use the Spring Tools 4 in Eclipse and Visual Studio Code when working on Spring Boot 2 applications.&lt;/p&gt; &lt;i&gt;By Alex Boyko, Martin Lippert&lt;/i&gt;</description>
-	<pubDate>Wed, 13 Feb 2019 04:14:00 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2018: Save the dates for 2019!</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/news/1772 at https://www.eclipsecon.org</guid>
-	<link>https://www.eclipsecon.org/europe2018/news/save-dates-2019</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Mark you calendar for the next edition of EclipseCon Europe / OSGi Community Event.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 12 Feb 2019 17:07:22 +0000</pubDate>
 </item>
 
 </channel>

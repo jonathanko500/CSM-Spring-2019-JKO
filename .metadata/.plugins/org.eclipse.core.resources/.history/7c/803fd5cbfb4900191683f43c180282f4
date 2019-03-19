@@ -3,7 +3,7 @@ import java.util.*;
 public class simulationFramework 
 {//start
 	private int currentTime=0;
-	private Queue<Event> eventQ = new PriorityQueue<Event>();
+	private Queue<Event> eventQ = new PriorityQueue<>();
 	//constructor
 	public simulationFramework()
 	{
@@ -13,7 +13,11 @@ public class simulationFramework
 	public simulationFramework(int time, Queue<Event> x)
 	{
 		this.currentTime=time;
-		eventQ.add((Event) x);
+		Object[] cop = x.toArray();
+		for(int i=0;i<x.size();i++)
+		{
+			eventQ.add((Event)cop[i]);
+		}
 	}
 	//setter
 	public void setCurrentTime(int x)

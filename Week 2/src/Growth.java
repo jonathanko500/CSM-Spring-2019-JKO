@@ -5,9 +5,11 @@ public class Growth
 
 	public static void main(String[] args) 
 	{//start
+		
 		int[]list = {6,13,14,25,33,43,51,53,64,72,84,93,95,96,97};
 		int x;
 		System.out.println(x=binary(list,33));
+		
 	}//end
 	public static int binary(int[] x, int y)
 	{//start

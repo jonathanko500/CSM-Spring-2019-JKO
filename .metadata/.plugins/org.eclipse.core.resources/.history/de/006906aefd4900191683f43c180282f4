@@ -1,7 +1,6 @@
 
 public class leaveEvent extends Event
 {//start
-	private simulationFramework simulation = new simulationFramework();
 	private int groupSize;
 	///constructor
 	public leaveEvent()
@@ -38,6 +37,6 @@ public class leaveEvent extends Event
 	}
 	public void leave(int x)
 	{
-		simulation.getEventQ().poll();
+		
 	}
 }//end
