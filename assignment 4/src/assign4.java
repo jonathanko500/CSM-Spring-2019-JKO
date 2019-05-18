@@ -8,11 +8,4 @@ public class assign4
 		
 	}//end main
 	
-	/*
-	public static void ModTopoOrder()
-	// The n vertices of a network are listed in topological order
-	{//start Mod
-		
-	}//end Mod
-	*/
 }//end class

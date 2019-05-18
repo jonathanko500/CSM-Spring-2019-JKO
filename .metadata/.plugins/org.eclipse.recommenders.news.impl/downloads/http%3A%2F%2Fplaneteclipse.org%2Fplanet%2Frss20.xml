@@ -8,6 +8,50 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Maximilian and Jonas: One size fits all – Rendering Material Design with React and Angular</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=41632</guid>
+	<link>https://eclipsesource.com/blogs/2019/05/17/one-size-fits-all-rendering-material-design-with-react-and-angular/</link>
+	<description>&lt;p&gt;JSON Forms is a framework for efficiently developing form-based UIs based on JSON Schema. It provides a simple declarative JSON-based language...&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2019/05/17/one-size-fits-all-rendering-material-design-with-react-and-angular/&quot; rel=&quot;nofollow&quot;&gt;One size fits all – Rendering Material Design with React and Angular&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Fri, 17 May 2019 09:52:03 +0000</pubDate>
+</item>
+<item>
+	<title>Andrey Loskutov: Incompatible Eclipse workspaces</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-342159971341432126.post-3852949671843488587</guid>
+	<link>http://javaclipse.blogspot.com/2019/05/incompatible-eclipse-workspaces.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;Eclipse has mechanism to recognize if the workspace to be used is created with older Eclipse version.&lt;br /&gt;In such case, to be safe, Eclipse shows dialog like:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-bzIVjTZG780/XN0sZj-ZbJI/AAAAAAAAjw0/FA3w7k-vlLwAkttD9rsM3asrAl0w8cW-ACLcBGAs/s1600/old_workspace_warning.png&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-bzIVjTZG780/XN0sZj-ZbJI/AAAAAAAAjw0/FA3w7k-vlLwAkttD9rsM3asrAl0w8cW-ACLcBGAs/s1600/old_workspace_warning.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;As of today (Eclipse 4.12 M1), if you click on &quot;Cancel&quot; button, Eclipse will behave differently, depending on the use cases &quot;history&quot;:&lt;br /&gt;&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;A. If the workbench was not started yet:&lt;/h4&gt;&lt;ol style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If Eclipse was started &lt;b&gt;without&lt;/b&gt; &quot;-data&quot; argument and user selects incompatible workspace, Eclipse will show &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will offer workspace selection dialog.&lt;/li&gt;&lt;li&gt;If Eclipse was started &lt;b&gt;with&lt;/b&gt; &quot;-data&quot; argument pointing to the incompatible workspace, Eclipse will show &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will &lt;span style=&quot;color: red;&quot;&gt;terminate&lt;/span&gt; (instead of offering to select another workspace).&lt;/li&gt;&lt;/ol&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;B. If the workbench was started:&lt;/h4&gt;&lt;ol style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If user selects &lt;b&gt;compatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts fine.&lt;/li&gt;&lt;li&gt;If user selects &lt;b&gt;incompatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts, shows the &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will &lt;span style=&quot;color: red;&quot;&gt;terminate&lt;/span&gt; (instead of offering to select another workspace).&lt;/li&gt;&lt;/ol&gt;This behavior is inconvenient (at least), so we have &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=538830&quot;&gt;bug 538830&lt;/a&gt;.&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Fix Proposal #1&lt;/h4&gt;The proposal is, that &lt;b&gt;independently&lt;/b&gt; on the way Eclipse was started, if user clicks on the &quot;Cancel&quot; button in the &quot;Older Workspace Version&quot; dialog, we &lt;b&gt;always&lt;/b&gt; show the default workspace selection dialog (instead of termination):&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-U2VeCqT6SEk/XN0uJV2m7EI/AAAAAAAAjxA/D5Kdw_JQKiMOmuzCZmfDJ56abEwLBMXSgCLcBGAs/s1600/workspace_selection_dialog.png&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-U2VeCqT6SEk/XN0uJV2m7EI/AAAAAAAAjxA/D5Kdw_JQKiMOmuzCZmfDJ56abEwLBMXSgCLcBGAs/s1600/workspace_selection_dialog.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;In this dialog above user has two choices: launch any workspace or finally terminate Eclipse via &quot;Cancel&quot;.&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Proposal #1 Matrix&lt;/h4&gt;&lt;h4&gt;A1. If the workbench was not started yet:&lt;/h4&gt;&lt;ol style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If Eclipse was started &lt;b&gt;with or without&lt;/b&gt; &quot;-data&quot; argument and user selects incompatible workspace, Eclipse will show &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will offer workspace selection dialog. To terminate Eclipse, user has to click &quot;Cancel&quot; in the workspace selection dialog.&lt;/li&gt;&lt;/ol&gt;&lt;h4&gt;B1. If the workbench was started:&lt;/h4&gt;&lt;ol&gt;&lt;li&gt;If user selects &lt;b&gt;compatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts fine.&lt;/li&gt;&lt;li&gt;If user selects &lt;b&gt;incompatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts, shows the &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will offer to select another workspace.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4&gt;Fix Proposal #2&lt;/h4&gt;The proposal is, that &lt;b&gt;depending&lt;/b&gt; on the way Eclipse was started, if user clicks on the &quot;Cancel&quot; button in the &quot;Older Workspace Version&quot; dialog, we &lt;b&gt;may or may not&lt;/b&gt; show the default workspace selection dialog. So what happens after &quot;Older Workspace Version&quot; dialog is shown is &lt;b&gt;not predictable&lt;/b&gt; by just looking on this dialog - it depends on the &lt;b&gt;history&lt;/b&gt; of this dialog.&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Proposal #2 Matrix&lt;/h4&gt;&lt;h4&gt;A2. If the workbench was not started yet:&lt;/h4&gt;&lt;ol style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If Eclipse was started &lt;b&gt;without&lt;/b&gt; &quot;-data&quot; argument and user selects incompatible workspace, Eclipse will show &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will offer workspace selection dialog.&lt;/li&gt;&lt;li&gt;If Eclipse was started &lt;b&gt;with&lt;/b&gt; &quot;-data&quot; argument pointing to the incompatible workspace, Eclipse will show &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will &lt;span style=&quot;color: red;&quot;&gt;terminate&lt;/span&gt; (instead of offering to select another workspace).&lt;/li&gt;&lt;/ol&gt;&lt;h4&gt;B2. If the workbench was started:&lt;/h4&gt;&lt;ol&gt;&lt;li&gt;If user selects &lt;b&gt;compatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts fine.&lt;/li&gt;&lt;li&gt;If user selects &lt;b&gt;incompatible&lt;/b&gt; workspace in the &quot;File -&amp;gt; Switch Workspace&quot; dialog, Eclipse restarts, shows the &quot;Older Workspace Version&quot; dialog above and by clicking on &quot;Cancel&quot; it will offer to select another workspace.&lt;/li&gt;&lt;/ol&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Similarities&lt;/h4&gt;&lt;div&gt;Both proposals fix second bullet in the use case B2.&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Differences&lt;/h4&gt;&lt;div&gt;We see that Proposal #1 has no second bullet for A1 case, and is always consistent in the way how UI behaves after clicking on &quot;Cancel&quot; in the &quot;Older Workspace Version&quot; dialog. Proposal #2 fixes only B2 use case, inconsistency in UI behavior for the second part of A1 use case remains.&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Technical (biased) notes:&lt;/h4&gt;&lt;ol style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Proposal #1 is implemented and the &lt;a href=&quot;https://git.eclipse.org/r/142139&quot;&gt;patch is available&lt;/a&gt;, along with the &lt;a href=&quot;https://bugs.eclipse.org/bugs/attachment.cgi?id=278605&quot;&gt;demo video&lt;/a&gt;. To test it live, one has to build Eclipse - but here I have &lt;a href=&quot;https://drive.google.com/drive/folders/0B7vALkuico9heWlDMlhfRGlRbm8&quot;&gt;SDK binaries with the patch applied&lt;/a&gt;. The patch is relatively simple and only affects Platform UI internal code.&lt;/li&gt;&lt;li&gt;Proposal #2 is not implemented yet. I assume that this will require more work compared to the patch #1. We will need a new command line argument for Eclipse to differentiate between &quot;&lt;i&gt;I want you not to terminate even if incompatible -data is supplied because I'm calling you from UI&lt;/i&gt;&quot; and &quot;&lt;i&gt;Please terminate if incompatible data is supplied because I'm calling you from the command line&lt;/i&gt;&quot;. A new command line argument for Eclipse means not just Platform UI internal change, but also requires changes in the Equinox and Help, and also means public interface change.&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;h4&gt;Question to the masses!&lt;/h4&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;color: red; font-size: large;&quot;&gt;We want to know your opinion - which proposal should be implemented?&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Please reply here or on the &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=538830&quot;&gt;bug 538830&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 16 May 2019 12:11:53 +0000</pubDate>
+	<author>noreply@blogger.com (Andrey Loskutov)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Launches openMobility Working Group</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/5WJvYhp5s1s/Eclipse-Foundation-Launches-openMobility-Working-Group.html</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/5WJvYhp5s1s/Eclipse-Foundation-Launches-openMobility-Working-Group.html</link>
+	<description>Today we announced the launch of the openMobility Working Group that will focus on open and shared collaboration around one of the major issues in urban planning around autonomous vehicles and future transportation requirements.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/5WJvYhp5s1s&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 13 May 2019 22:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: Quarkus</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/quarkus.html</guid>
+	<link>https://tools.jboss.org/blog/quarkus.html</link>
+	<description>&lt;div&gt;&lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You’ve probably heard about &lt;a href=&quot;https://quarkus.io&quot;&gt;Quarkus&lt;/a&gt;, the Supersonic Subatomic Java framework tailored for Kubernetes and containers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We wrote an article on how to create your first Quarkus project in an Eclipse based IDE (like &lt;a href=&quot;https://developers.redhat.com/products/codeready-studio/overview&quot;&gt;Red Hat CodeReady Studio&lt;/a&gt;).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can read it at &lt;a class=&quot;bare&quot; href=&quot;https://developers.redhat.com/blog/2019/05/09/create-your-first-quarkus-project-with-eclipse-ide-red-hat-codeready-studio/&quot;&gt;https://developers.redhat.com/blog/2019/05/09/create-your-first-quarkus-project-with-eclipse-ide-red-hat-codeready-studio/&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 13 May 2019 12:23:22 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: The Cloud Native Imperative - Results from the 2019 Jakarta EE Developer Survey</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/u5yxKwK914U/cloud-native-imperative-%E2%80%94-results-2019-jakarta-ee-developer-survey</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/u5yxKwK914U/cloud-native-imperative-%E2%80%94-results-2019-jakarta-ee-developer-survey</link>
+	<description>The results of the 2019 Jakarta EE Developer Survey are out. Almost 1,800 Java developers from around the world have spoken.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/u5yxKwK914U&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 10 May 2019 19:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Mike Milinkovich: The Cloud Native Imperative — Results from the 2019 Jakarta EE Developer Survey</title>
 	<guid isPermaLink="false">http://eclipse-foundation.blog/?p=1498</guid>
 	<link>https://eclipse-foundation.blog/2019/05/10/results-2019-jakarta-ee-developer-survey/</link>
@@ -383,214 +427,6 @@ The Eclipse Ditto team&lt;/p&gt;</description>
 &lt;p&gt;On May 6th, we move to a new office space nearby that allows us all to be on one floor and doesn’t significantly increase travel time for anyone on our team. The decision to move to one floor was largely based on research that shows that having employees on one floor improves collaboration and offers more opportunities for interactions, thereby building relationships. Our new office also allows room for us to grow as we continue to grow. These fresh new facilities offer several benefits for our company, such as a free gym, lots of green space (think outdoor meetings where creativity can bloom), an on-site cafeteria which provides healthy food options, several in-office meeting rooms and a large boardroom where we can host our larger meetings…and have a few parties for our hard-working staff.&lt;/p&gt;
 &lt;p&gt;If  you are in the area, please drop by and say hello. We would certainly welcome the opportunity to show you our amazing new digs!&lt;/p&gt;</description>
 	<pubDate>Wed, 24 Apr 2019 19:47:29 +0000</pubDate>
-</item>
-<item>
-	<title>Doug Schaefer: The “Next” Eclipse CDT</title>
-	<guid isPermaLink="false">https://medium.com/p/6d09d0b1ec27</guid>
-	<link>https://medium.com/@dougschaefer/the-next-eclipse-cdt-6d09d0b1ec27?source=rss-8f7a70438965------2</link>
-	<description>&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/700/1*uI7gTFqPmJxQjk6rJWkejQ.jpeg&quot; /&gt;CDT Summit at EclipseCon Europe 2016&lt;/figure&gt;&lt;p&gt;In my last article, &lt;a href=&quot;https://medium.com/@dougschaefer/the-journey-to-a-new-eclipse-cdt-3855ec52334&quot;&gt;I walked through a bit of the history of the Eclipse CDT project&lt;/a&gt;. It’s a great story of the trials and tribulations of community building, working with a group of like minded platform vendors, even competitors, who just wanted a great IDE and who knew the only way to get that was to work together.&lt;/p&gt;&lt;p&gt;What sticks with me most looking back on my ump-teen years on the project is the people. Each of these vendors were led by passionate tools developers who put aside any hint of corporate agenda and just wanted to work with other developers from around the world, to solve hard problems, and build something they would be proud of. Through the semi regular face-to-face CDT Summits and CDT days at EclipseCons past we were able to build relationships and become great friends. Even after some have moved on, I still remain in contact with many of them and we still share a laugh or two, and even the odd beer!&lt;/p&gt;&lt;p&gt;So I offer no apologies if, as participation has dwindled on the project in recent years, I yearn for those days. But my personal enjoyment working in this environment is one thing, &lt;strong&gt;I don’t think the job is done&lt;/strong&gt;. The C++ language continues to evolve and become more usable and powerful than ever before. Even C continues to receive updates. And more importantly, the IDE landscape is changing and we need to keep up to keep our users and customers happy.&lt;/p&gt;&lt;p&gt;Over the years, I have always had to deal with users and even colleagues, who are hard core engineers, who refuse to give up their text editors and custom bash scripts. In the end, it’s been hard to argue with them. For these folk, IDEs don’t work the way they want to work. And, initially at least, it does slow them down as they fight the paradigm and they just end up frustrated and toss it aside losing all those gains we are trying to give them.&lt;/p&gt;&lt;p&gt;But in the end, I guess it was only a matter of time that an IDE platform would come along and offer the best of both worlds. Be a great unopinionated text editor, facilitate hooking up users’s bash scripts, be super extensible to add in little accelerators. It’s been brewing for a while. Sublime was the first such thing I saw developers really enjoy. And now, today, we have Visual Studio Code, which is becoming the dominant editor platform.&lt;/p&gt;&lt;p&gt;And funny enough, an interesting thing happens when you take a bunch of IDE developers and tell them to build a great editor, they end up building an editor so extensible that it slowly becomes an IDE. The VS Code team, many of them former Eclipsers, has managed to create a mechanism to add powerful language services to the editor. And, of all things, add support for debuggers. OK, you add debug support, you’re no longer an editor, you are an IDE. Stop pretending :).&lt;/p&gt;&lt;p&gt;But even greater, the VS Code team has done this by creating standardized APIs and protocols that other IDEs can use. You can build common services and then plug them into your favorite IDE, even Eclipse!&lt;/p&gt;&lt;p&gt;With this new architecture, the path forward for the Eclipse CDT project is clear. We need to take all that C/C++ IDE knowledge we’ve built over the years and use that to build common components that can be used by other IDE platforms. It means growing beyond our Eclipse IDE roots to give users that great experience in the IDE that best works they way they want to work.&lt;/p&gt;&lt;p&gt;We as the CDT community have a lot to offer, and there really isn’t a community like it, that focuses on the needs of the C/C++ developer. The challenge will be to harness that energy again, to work together for the greater good that we can only accomplish together. It really is an exciting time to be an IDE developer and Eclipse is a great home for us to come together.&lt;/p&gt;&lt;p&gt;In my next article I will start getting into the technical meat of what this new vision entails and what fun we can have building it! Time to roll up our sleeves and get to work.&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=6d09d0b1ec27&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 Apr 2019 17:27:08 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: The 2019 IoT Developer Survey Results are Live</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/ueF1Td4fXn8/2019-iot-developer-survey-results-are-live</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/ueF1Td4fXn8/2019-iot-developer-survey-results-are-live</link>
-	<description>This year marks the fifth year the Eclipse IoT Working Group has asked the global IoT developer community to share their perceptions, requirements, and priorities.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/ueF1Td4fXn8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 17 Apr 2019 13:40:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: New Survey of More Than 1,700 IoT Developers Reveals Top Hardware, Software &quot;Stack&quot; Choices</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/rvzoLsL0DKs/New-Survey-of-More-Than-1-700-IoT-Developers-Reveals-Top-Hardware-Software-Stack-Choices.html</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/rvzoLsL0DKs/New-Survey-of-More-Than-1-700-IoT-Developers-Reveals-Top-Hardware-Software-Stack-Choices.html</link>
-	<description>Today, we released the 2019 IoT Developer Survey results that canvassed more than 1,700 developers about their IoT efforts!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/rvzoLsL0DKs&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 17 Apr 2019 13:40:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mike Milinkovich: The 2019 IoT Developer Survey Results are Live</title>
-	<guid isPermaLink="false">http://eclipse-foundation.blog/?p=1488</guid>
-	<link>https://eclipse-foundation.blog/2019/04/17/2019-iot-developer-survey/</link>
-	<description>&lt;p&gt;After months of hard work, the 2019 IoT Developer Survey results are live today. This year marks the fifth year the &lt;a href=&quot;https://iot.eclipse.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT Working Group&lt;/a&gt; has asked the global IoT developer community to share their perceptions, requirements, and priorities. The survey has proven to be an influential assessment of the IoT market as viewed from the development front lines. Access the full findings of the 2019 IoT Developer Survey &lt;a href=&quot;http://bit.ly/2Z6SwiA&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Over 1,700 individuals took the survey between February and March 2019. Just like in previous years (see results from 2018, 2017, and earlier &lt;a href=&quot;https://iot.eclipse.org/iot-developer-surveys/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;), Eclipse IoT collaborated with key IoT ecosystem players like Bosch and Red Hat to maximize the reach of the survey.&lt;/p&gt;
-&lt;p&gt;The key findings this year include the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IoT drives real-world, commercial outcomes today. 65% of respondents are currently working on IoT projects professionally or will be in the next 18 months.&lt;/li&gt;
-&lt;li&gt;IoT developers mostly use C, C++, Java, JavaScript, and Python&lt;/li&gt;
-&lt;li&gt;AWS, Azure, and GCP are the leading IoT cloud platforms&lt;/li&gt;
-&lt;li&gt;Top three industry focus areas remain the same as last year: IoT Platforms, Home Automation, and Industrial Automation / IIoT.&lt;/li&gt;
-&lt;li&gt;MQTT remains the dominant IoT communication protocol leveraged by developers&lt;/li&gt;
-&lt;li&gt;The Eclipse Desktop IDE is the leading IDE for building IoT applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;b&gt;IoT gets real(er)&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Consistent with our findings last year, two-thirds of the respondents to our survey develop and deploy IoT solutions today or will be doing so within 18 months. This continued focus on building and deploying real world solutions is reflected in the increases in developers’ focus on performance, connectivity, and standards shown in the survey.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;C and Java dominate&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;C won out as the programming language of choice for constrained devices, while Java was most popular for gateways/edge nodes and IoT cloud. Neither of those findings are surprising. C and C++ have long been the languages of choice for small embedded systems where minimizing memory space and power consumption, and maximizing processor utilization are key. Java is the dominant language and platform where the memory and processing resources are larger, and the complexity of the systems are greater. In particular, Java is the language of choice for most cloud infrastructure projects, so seeing it lead in IoT cloud is consistent with that.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;AWS, Azure, and Google hold on to the lead&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;As expected AWS, Azure, and GCP maintain their status as the leading IoT cloud platforms. The list of three and their rankings are entirely consistent with their relative weights in the cloud computing marketplace as a whole, so there is no surprise to see this reflected in our results.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;A continued focus on platforms, home automation, and IIoT&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;IoT Platforms (34%), Home Automation (27%), and Industrial Automation / IIoT (26%) were the respondents’ three most common industry focus areas. These areas are likely to continue to be key targets for IoT developer activity.  The fact that IoT Platforms is consistently year after year the number one focus for IoT developers is interesting. It implies that enterprises and industrials are putting resources into building their own IoT platforms for use by their companies. To me this suggests that industrial IoT is going to be a huge opportunity for hybrid cloud, as companies build and run IoT solutions on-premise based using modern, open technologies.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Security is (still) top of mind &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Security is still the top concern for IoT developers. Communication Security (38%) Data Encryption (38%), and JSON Web Tokens (JWTs) (26%) were the top three security technologies cited in the survey, with virtualization also starting to play a stronger role in IoT Security.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;MQTT is still the dominant IoT communication protocol&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;HTTP (49%), MQTT (42%), and Websockets (26%) were the top three communications protocols used by IoT developers. The growth in MQTT adoption over the past seven or eight years has been phenomenal, and I like to think that the Eclipse IoT community with its Eclipse Paho and Eclipse Mosquitto projects had a small part to play in that. Having robust open source implementations available has certainly been part of the MQTT’s success. Looking forward that main challenge we see for further MQTT adoption is the lack of interoperability built into the protocol. While MQTT is a great lightweight, low latency protocol it does not provide any guidance on the topic structures and payload definitions used by any device or application. This means that no two teams using MQTT would expect to have their systems be able to reliably exchange data. The Eclipse Tahu project defines the Sparkplug protocol — created by Arlen Nipper one of the co-inventors of MQTT itself. Sparkplug defines the topic structures and payload definitions necessary for out-of-the-box interoperability of SCADA systems. We are hopeful that Sparkplug could spur MQTT to even greater adoption in industrial IoT use cases.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;The Eclipse Desktop IDE is the leading IoT IDE&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;45% of respondents use the Eclipse Desktop IDE. It is not at all surprising that the Eclipse IDE has a strong franchise with IoT developers, given the dominance of C and Java. The Eclipse CDT project has long been hugely important in the embedded software space. The past decade CDT has been used by virtually every chip, SOC, and RTOS company as the basis for their toolset. Those developer solutions also typically use additional tools such as the Target Management Framework, and Remote Systems Explorer that were specifically designed with the embedded developer in mind. That, coupled with the Eclipse IDE’s broad use amongst professional Java developers makes its leadership in IoT clear.&lt;/p&gt;
-&lt;p&gt;In addition, close to 10% also use Eclipse Che, our community’s next generation cloud-based tooling solution. It really seems part of the future of IoT is in the cloud, one way or another.&lt;/p&gt;
-&lt;p&gt;Access the full findings of the 2019 IoT Developer Survey &lt;a href=&quot;http://bit.ly/2Z6SwiA&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thanks to everyone who took the time to fill out this survey, and thanks again our Eclipse IoT members for their help with the promotion.&lt;/p&gt;
-&lt;p&gt;We are very interested in hearing your thoughts and feedback about this year’s findings. And, of course, we are always open to suggestions on how to improve the survey in the future!&lt;/p&gt;</description>
-	<pubDate>Wed, 17 Apr 2019 11:00:50 +0000</pubDate>
-</item>
-<item>
-	<title>itemis: How to reference UML elements from Xtext DSLs</title>
-	<guid isPermaLink="true">https://blogs.itemis.com/en/how-to-reference-uml-elements-from-xtext-dsls</guid>
-	<link>https://blogs.itemis.com/en/how-to-reference-uml-elements-from-xtext-dsls</link>
-	<description>&lt;p&gt;With the &lt;a href=&quot;https://www.eclipse.org/Xtext/&quot;&gt;Xtext framework&lt;/a&gt;, you can build DSL workbenches in just a few steps. However, sometimes you want to reuse model elements already defined in other formats or even in other languages. In this blog post I’m going to demonstrate typical scenarios when you’re reusing model elements belonging to a different language.&lt;/p&gt; 
-&lt;p&gt;Firstly, consider having some pre-defined Eclipse UML2 models, and you want to reference classes of these UML models from your Xtext DSL.&lt;/p&gt; 
-&lt;p&gt;If you are interested in reusing model elements belonging to the same language but defined in different formats, take a look at my previous blog post “&lt;a href=&quot;https://hosting.itemis.de/en/combining-emf-models-with-xtext-dsls&quot;&gt;Combining EMF models with Xtext DSLs&lt;/a&gt;”.&lt;/p&gt; 
-&lt;p&gt;Let's get started with the preparatory steps:&lt;/p&gt; 
-&lt;h2&gt;Preparatory steps&lt;/h2&gt; 
-&lt;ol&gt; 
- &lt;li&gt;Install the latest version of the &lt;em&gt;UML2 Extender SDK&lt;/em&gt; and the &lt;em&gt;Xtext Complete SDK&lt;/em&gt; of the Eclipse release train.&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;install-Xtext-Complete-SDK-and-UML2-Extender-SDK&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog%20(2019)/Software%20Development/How%20to%20reference%20UML%20elements%20from%20Xtext%20DSLs/install-Xtext-Complete-SDK-and-UML2-Extender-SDK.jpg?width=770&amp;amp;name=install-Xtext-Complete-SDK-and-UML2-Extender-SDK.jpg&quot; style=&quot;width: 770px;&quot; width=&quot;770&quot; /&gt; &lt;p&gt; &lt;/p&gt; &lt;/li&gt; 
- &lt;li&gt;Create the &lt;em&gt;Domainmodel&lt;/em&gt; project, based on the &lt;a href=&quot;https://www.eclipse.org/Xtext/documentation/102_domainmodelwalkthrough.html&quot;&gt;Xtext 15 Minutes Tutorial&lt;/a&gt;. The meta-model of the &lt;em&gt;Domainmodel&lt;/em&gt; project&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;meta-model-of-the-Domainmodel project&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog%20(2019)/Software%20Development/How%20to%20reference%20UML%20elements%20from%20Xtext%20DSLs/meta-model-of-the-Domainmodel%20project.jpg?width=750&amp;amp;name=meta-model-of-the-Domainmodel%20project.jpg&quot; style=&quot;width: 750px;&quot; width=&quot;750&quot; /&gt;&lt;br /&gt;&lt;br /&gt;describes that a domain model consist of certain types (data types and entities), an entity contains features and each feature can have a type. To be able to use UML classes in the feature's type definition, the following modifications are necessary:&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;h2&gt;Modifications&lt;sup&gt;1&lt;/sup&gt; in the &lt;em&gt;org.example.domainmodel&lt;/em&gt; plug-in&lt;/h2&gt; 
-&lt;ol&gt; 
- &lt;li&gt;Extend the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/Domainmodel.xtext#L23&quot;&gt;&lt;em&gt;Domainmodel.xtext&lt;/em&gt;&lt;/a&gt; grammar definition:&lt;br /&gt; &lt;pre class=&quot;prettyprint&quot;&gt;grammar org.example.domainmodel.Domainmodel with org.eclipse.xtext.common.Terminals
-
-...
-
-import &quot;http://www.eclipse.org/uml2/5.0.0/UML&quot; as uml
-
-...
-
-Feature:
-	(many?='many')? name=ID ':' type=[uml::Class|FQN] | type=[Type];
-
-...&lt;/pre&gt; &lt;p&gt; &lt;/p&gt; &lt;/li&gt; 
- &lt;li&gt;Extend the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/GenerateDomainmodel.mwe2#L11-L66&quot;&gt;&lt;em&gt;GenerateDomainmodel.mwe2&lt;/em&gt;&lt;/a&gt; workflow:&lt;br /&gt; &lt;pre class=&quot;prettyprint&quot;&gt;module org.example.domainmodel.GenerateDomainmodel
-
-import org.eclipse.emf.mwe.utils.*
-import org.eclipse.xtext.xtext.generator.*
-import org.eclipse.xtext.xtext.generator.model.project.*
-
-var rootPath = &quot;..&quot;
-
-Workflow {
-
-	bean = StandaloneSetup {
-		
-		scanClassPath = true
-		platformUri = rootPath
-		
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.emf.codegen.ecore/model/GenModel.genmodel&quot;
-			to = &quot;platform:/resource/org.eclipse.emf.codegen.ecore/model/GenModel.genmodel&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel&quot;
-			to = &quot;platform:/resource/org.eclipse.emf.ecore/model/Ecore.genmodel&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.codegen.ecore/model/GenModel.genmodel&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.codegen.ecore/model/GenModel.genmodel&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.uml/model/UML.genmodel&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.uml/model/UML.genmodel&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.emf.codegen.ecore/model/GenModel.ecore&quot;
-			to = &quot;platform:/resource/org.eclipse.emf.codegen.ecore/model/GenModel.ecore&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore&quot;
-			to = &quot;platform:/resource/org.eclipse.emf.ecore/model/Ecore.ecore&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.codegen.ecore/model/GenModel.ecore&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.codegen.ecore/model/GenModel.ecore&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.uml/model/UML.ecore&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.types/model/Types.genmodel&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.types/model/Types.genmodel&quot;
-		}
-		uriMap = {
-			from = &quot;platform:/plugin/org.eclipse.uml2.types/model/Types.ecore&quot;
-			to = &quot;platform:/resource/org.eclipse.uml2.types/model/Types.ecore&quot;
-		}
-		
-		registerGeneratedEPackage = &quot;org.eclipse.emf.ecore.EcorePackage&quot;
-		registerGeneratedEPackage = &quot;org.eclipse.uml2.uml.UMLPackage&quot;
-		registerGeneratedEPackage = &quot;org.eclipse.uml2.types.TypesPackage&quot;
-		registerGeneratedEPackage = &quot;org.eclipse.emf.codegen.ecore.genmodel.GenModelPackage&quot;
-		registerGeneratedEPackage = &quot;org.eclipse.uml2.codegen.ecore.genmodel.GenModelPackage&quot;
-		registerGenModelFile = &quot;platform:/resource/org.eclipse.emf.ecore/model/Ecore.genmodel&quot;
-		registerGenModelFile = &quot;platform:/resource/org.eclipse.emf.codegen.ecore/model/GenModel.genmodel&quot;
-		registerGenModelFile = &quot;platform:/resource/org.eclipse.uml2.uml/model/UML.genmodel&quot;
-		registerGenModelFile = &quot;platform:/resource/org.eclipse.uml2.codegen.ecore/model/GenModel.genmodel&quot;
-	}
-	
-	component = XtextGenerator {
-		...
-	}
-}&lt;/pre&gt; &lt;p&gt; &lt;/p&gt; &lt;/li&gt; 
- &lt;li&gt;Add the following plugins to the Require-Bundle section in the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/META-INF/MANIFEST.MF#L18-L19&quot;&gt;&lt;em&gt;MANIFEST.MF&lt;/em&gt;&lt;/a&gt; file: 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;em&gt;org.eclipse.uml2.uml&lt;/em&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;em&gt;org.eclipse.uml2.codegen.ecore&lt;/em&gt;&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
- &lt;li&gt;Add the following classes: 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/UMLLanguageConstants.xtend&quot;&gt;&lt;em&gt;UMLLanguageConstants.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/UMLQualifiedNameProvider.xtend&quot;&gt;&lt;em&gt;UMLQualifiedNameProvider.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/UMLRuntimeModule.xtend&quot;&gt;&lt;em&gt;UMLRuntimeModule.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel/src/org/example/domainmodel/UMLStandaloneSetup.xtend&quot;&gt;&lt;em&gt;UMLStandaloneSetup.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;h2&gt;Modifications&lt;sup&gt;2&lt;/sup&gt; in the &lt;em&gt;org.example.domainmodel.ui&lt;/em&gt; plug-in&lt;/h2&gt; 
-&lt;ol&gt; 
- &lt;li&gt;Add the following classes: 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/src/org/example/domainmodel/ui/UMLExecutableExtensionFactory.xtend&quot;&gt;&lt;em&gt;UMLExecutableExtensionFactory.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/src/org/example/domainmodel/ui/UMLUiModule.xtend&quot;&gt;&lt;em&gt;UMLUiModule.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/src/org/example/domainmodel/ui/editor/ReflectiveTreeEditorOpener.xtend&quot;&gt;&lt;em&gt;ReflectiveTreeEditorOpener.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/src/org/example/domainmodel/ui/internal/DomainmodelActivatorEx.xtend&quot;&gt;&lt;em&gt;DomainmodelActivatorEx.xtend&lt;/em&gt;&lt;/a&gt;&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
- &lt;li&gt;Register &lt;em&gt;DomainmodelActivatorEx&lt;/em&gt; as &lt;em&gt;Bundle-Activator&lt;/em&gt; in the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/META-INF/MANIFEST.MF#L27&quot;&gt;&lt;em&gt;MANIFEST.MF&lt;/em&gt;&lt;/a&gt; file.&lt;/li&gt; 
- &lt;li&gt;Add the following plugin to the Require-Bundle section in the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/META-INF/MANIFEST.MF#L21&quot;&gt;&lt;em&gt;MANIFEST.MF&lt;/em&gt;&lt;/a&gt;: 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;em&gt;org.eclipse.emf.ecore.editor&lt;/em&gt;&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
- &lt;li&gt;Add the following section to the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui/plugin.xml#L435-L442&quot;&gt;&lt;em&gt;plugin.xml&lt;/em&gt;&lt;/a&gt; file:&lt;br /&gt; &lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;!-- register the Xtext UI language services to Xtext's registry --&amp;gt;
-&amp;lt;extension
-	point=&quot;org.eclipse.xtext.extension_resourceServiceProvider&quot;&amp;gt;
-	&amp;lt;resourceServiceProvider
-		class=&quot;org.example.domainmodel.ui.UMLExecutableExtensionFactory:org.eclipse.xtext.ui.resource.generic.EmfResourceUIServiceProvider&quot;
-		uriExtension=&quot;uml&quot;&amp;gt;
-	&amp;lt;/resourceServiceProvider&amp;gt;
-&amp;lt;/extension&amp;gt;&lt;/pre&gt; &lt;p&gt; &lt;/p&gt; &lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;h2&gt;Manual testing&lt;/h2&gt; 
-&lt;p&gt;Start an Eclipse runtime to verify that parsing, linking, content assistant, hovering, hyperlink navigation, quickfixes, etc., are working properly.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Eclipse-manual-testing&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog%20(2019)/Software%20Development/How%20to%20reference%20UML%20elements%20from%20Xtext%20DSLs/Eclipse-manual-testing.jpg?width=707&amp;amp;name=Eclipse-manual-testing.jpg&quot; style=&quot;width: 707px;&quot; width=&quot;707&quot; /&gt;&lt;/p&gt; 
-&lt;h2&gt;Automated testing&lt;/h2&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Extend the &lt;em&gt;org.example.domainmodel.tests&lt;/em&gt; plug-in by the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.tests/src/org/example/domainmodel/tests/DomainmodelIndexTest.xtend&quot;&gt;&lt;em&gt;Indexing&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.tests/src/org/example/domainmodel/tests/DomainmodelLinkingTest.xtend&quot;&gt;&lt;em&gt;Linking&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.tests/src/org/example/domainmodel/tests/DomainmodelParsingTest.xtend&quot;&gt;&lt;em&gt;Parsing&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.tests/src/org/example/domainmodel/tests/DomainmodelScopingTest.xtend&quot;&gt;&lt;em&gt;Scoping&lt;/em&gt;&lt;/a&gt;, etc. JUnit test cases.&lt;/li&gt; 
- &lt;li&gt;Extend the &lt;em&gt;org.example.domainmodel.ui.tests&lt;/em&gt; plug-in by the &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui.tests/src/org/example/domainmodel/ui/tests/DomainmodelContentAssist2Test.xtend&quot;&gt;&lt;em&gt;ContentAssistant&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui.tests/src/org/example/domainmodel/ui/tests/DomainmodelHover2Test.xtend&quot;&gt;&lt;em&gt;Hovering&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui.tests/src/org/example/domainmodel/ui/tests/DomainmodelHyperlinking2Test.xtend&quot;&gt;&lt;em&gt;Hyperlinking&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/referencing-uml-elements-from-xtext-dsls/org.example.domainmodel.ui.tests/src/org/example/domainmodel/ui/tests/DomainmodelQuickfix2Test.xtend&quot;&gt;&lt;em&gt;Quickfixes&lt;/em&gt;&lt;/a&gt;, etc. JUnit Plug-in test cases.&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;Conclusion&lt;/h2&gt; 
-&lt;p&gt;We have done the preparatory steps, modifications and testing necessary to reuse model elements belonging to a different language. This example has been kept simple on purpose.&lt;/p&gt; 
-&lt;p&gt;If you are interested in more advanced use-cases on the Xtext/UML integration, I recommend &lt;a href=&quot;https://hosting.itemis.de/author/karsten-thoms&quot;&gt;Karsten&lt;/a&gt;‘s and &lt;a href=&quot;https://hosting.itemis.de/author/holger-schill&quot;&gt;Holger&lt;/a&gt;‘s presentation on “&lt;a href=&quot;https://www.youtube.com/watch?v=teOULtQ81-U&quot;&gt;How to build Code Generators for Non-Xtext Models with Xtend&lt;/a&gt;”.&lt;/p&gt; 
-&lt;p&gt;Do you have questions or feedback? Feel free to leave me a comment below.&lt;/p&gt; 
-&lt;p&gt; &lt;/p&gt;  
-&lt;p&gt;&lt;sup&gt;1,2&lt;/sup&gt; Please note that the blog post “&lt;a href=&quot;https://hosting.itemis.de/en/combining-emf-models-with-xtext-dsls&quot;&gt;Combining EMF Models with Xtext DSLs&lt;/a&gt;” explains the necessary modifications in detail.&lt;/p&gt;  
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fhow-to-reference-uml-elements-from-xtext-dsls&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 16 Apr 2019 14:00:00 +0000</pubDate>
-	<author>miklossy@itemis.de (Tamas Miklossy)</author>
 </item>
 
 </channel>

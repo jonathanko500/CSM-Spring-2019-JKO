@@ -6,4 +6,3 @@ INDEX VERSION 1.129+C:\Users\Ko Family\Desktop\CSM-Spring-2019-JKO\.metadata\.pl
 2987220926.index
 721686020.index
 1556283325.index
-3306209103.index

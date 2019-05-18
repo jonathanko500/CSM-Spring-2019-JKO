@@ -1,0 +1,7 @@
+
+
+
+public interface Stacks<E>
+{//start interface
+	
+}//end interface

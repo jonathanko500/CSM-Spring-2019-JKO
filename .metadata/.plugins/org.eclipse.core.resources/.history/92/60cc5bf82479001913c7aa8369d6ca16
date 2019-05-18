@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Path
+{//start class
+	private ArrayList<BucketOfVertex> start;
+	private ArrayList<BucketOfVertex> path = new ArrayList<>();
+	private ArrayList<BucketOfVertex> crit = new ArrayList<>();
+	private boolean loop;
+	//make path
+	public Path(ArrayList<BucketOfVertex> x, int i)
+	{
+		
+	}
+	//set path
+	public void LayOut(ArrayList<BucketOfVertex> x, int y)
+	{
+		//x=length y=start
+		start = x;
+		loop=false;
+		
+	}
+	private void searchAllPath(BucketOfVertex start)
+	{
+		
+	}
+}//end class
